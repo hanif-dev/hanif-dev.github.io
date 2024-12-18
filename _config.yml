@@ -1,0 +1,72 @@
+# Metadata Umum
+title: "Portofolio Proyek Profesional"
+author: "Hanif K"
+email: "hanifkamil86@gmail.com"
+description: >
+  Portofolio ini berisi berbagai proyek dalam bidang Data Analysis, Business Analytics, Machine Learning, Natural Language Processing, dan Web Development.
+
+# URL dan Base Path
+baseurl: ""  # Kosongkan jika repositori root
+url: "https://hanif-dev.github.io"
+
+# Tema dan Plugin
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+# Navigasi Utama
+navbar_links:
+  - title: "About"
+    url: "/about/"
+  - title: "Experiences"
+    url: "/experiences/"
+  - title: "Expertise"
+    url: "/expertise/"
+  - title: "Projects"
+    url: "/projects/"
+  - title: "Achievements"
+    url: "/achievements/"
+
+
+# Koleksi Proyek
+collections:
+  projects:
+    output: true
+    permalink: /projects/:categories/:title/
+
+
+# Default Metadata untuk Koleksi Proyek
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+      author: "Hanif K"
+      tags: "Data Analysis, Python, NLP, Visualization, FMCG"
+      category: "General"
+
+# Kategori Utama untuk Proyek
+categories:
+  - Data Analysis
+  - Business Analytics
+  - Machine Learning
+  - Natural Language Processing
+  - Web Development
+
+# Social Media Links
+social:
+  linkedin: "https://www.linkedin.com/in/hanifkamil"
+  github: "https://github.com/hanif-dev"
+  email: "mailto:hanifkamil86@gmail.com"
+
+# Pagination
+paginate: 6
+paginate_path: "/projects/page:num/"
+
+# Format dan Bahasa
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+timezone: Asia/Jakarta
