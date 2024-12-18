@@ -75,22 +75,3 @@ body, html {
     display: none;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-
-/* CSS untuk memusatkan baris kedua */
-.centered-row {
-    display: flex; /* Mengaktifkan Flexbox */
-    justify-content: center; /* Pusatkan elemen di tengah */
-}
-
-/* Tambahan untuk Layout Responsif */
-@media (max-width: 768px) {
-    .centered-row {
-        flex-direction: column; /* Elemen akan menumpuk vertikal di layar kecil */
-        align-items: center; /* Pastikan elemen tetap di tengah */
-    }
-
-    .expertise-circle {
-        width: 80px; /* Perkecil lingkaran */
-        height: 80px;
-    }
-}
