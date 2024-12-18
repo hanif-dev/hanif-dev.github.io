@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: "Achievements"
@@ -13,16 +12,17 @@ Berikut adalah pencapaian dan sertifikasi yang berhasil saya raih:
 
 ## 🎓 **Certifications & Competitions**
 
-### <h2 id="data-analysis-certifications">1. Data Analysis Certifications</h2>  
-- **Business Analytics Nanodegree** - Udacity  (2022)
-- **Microsoft Certified: Power BI Analyst** (Not yet)  
-- **Google Data Analytics Professional Certificate** (Not yet)  
+### 1. **Data Analysis Certifications**  {#data-analysis-certifications}
+
+- **Business Analytics Nanodegree** - *Udacity* (2022)
+- **Microsoft Certified: Power BI Analyst** *(Coming Soon)*
+- **Google Data Analytics Professional Certificate** *(Coming Soon)*
 
 ![Data Analysis Certification](../../assets/images/data-analysis-cert.png)
 
 ---
 
-### <h2 id="machine-learning-achievements">2. Machine Learning Achievements</h2>  
+### 2. **Machine Learning Achievements** {#machine-learning-achievements} 
 - **IBM Professional Certificate in Machine Learning** (Not yet)  
 - **Deep Learning Specialization** - Coursera (Not yet) 
 
@@ -30,7 +30,7 @@ Berikut adalah pencapaian dan sertifikasi yang berhasil saya raih:
 
 ---
 
-### <h2 id="nlp-competitions">3. NLP Competitions</h2>
+### 3. **NLP Competitions** {#nlp-competitions}
 - **Top 10%** in ? NLP Competition: **Sentiment Analysis** (202?)
 - **AI Model Deployment Challenge Loser** - Company Hackathon (202?)   
 - Menggunakan model **BERT** dan **Word2Vec**.
@@ -39,7 +39,7 @@ Berikut adalah pencapaian dan sertifikasi yang berhasil saya raih:
 
 ---
 
-### <h2 id="cloud-certifications">4. Cloud Certifications</h2>  
+### 4. **Cloud Certifications** {#cloud-certifications}
 - **AWS Solutions Architect Associate** (In dream)  
 - **Google Cloud Professional Data Engineer** (In dream)
 
@@ -48,7 +48,7 @@ Berikut adalah pencapaian dan sertifikasi yang berhasil saya raih:
 
 ---
 
-### <h2 id="web-development-awards">5. Web Development Awards</h2>  
+### 5. **Web Development Awards** {web-development-awards}  
 - **Best UI/UX Design** - Hackathon (Never)  
 - **Web Deployment for Business Analytics Dashboard using Flask & Dash** (Not yet)
 
