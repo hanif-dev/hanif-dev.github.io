@@ -16,7 +16,7 @@ description: "Predicting customers who are likely to stop using products (churn 
 2. **Order Trends and Insights (2020-2021)**  
    There is a significant spike in orders during December 2020, most likely due to the holiday season and New Year's preparations.
 
-   ![Order Trends](../../../images/order_trends.png)
+   ![Order Trends](https://github.com/hanif-dev/hanif-dev.github.io/blob/main/images/order_trends.PNG)
    
 ---
 
