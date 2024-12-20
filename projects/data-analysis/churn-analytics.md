@@ -11,12 +11,12 @@ description: "Predicting customers who are likely to stop using products (churn 
 1. **Average Churn Status by Days Since First Purchase**  
    The graph below shows the monthly sales trends from Q4 2020 to Q3 2021.
 
-   ![Churn](https://github.com/hanif-dev/hanif-dev.github.io/blob/main/assets/images/churn.png)
+   [Churn](https://github.com/hanif-dev/hanif-dev.github.io/blob/main/assets/images/churn.png)
 
 2. **Order Trends and Insights (2020-2021)**  
    There is a significant spike in orders during December 2020, most likely due to the holiday season and New Year's preparations.
 
-   [Order Trends](https://hanif-dev.github.io/assets/images/order_trends.png)
+   [Order Trends](https://github.com/hanif-dev/hanif-dev.github.io/blob/main/assets/images/order_trends.png)
 
 ---
 
@@ -33,6 +33,4 @@ description: "Predicting customers who are likely to stop using products (churn 
 
 ---
 
-## Dataset & Source Code  
-- **Dataset**: [Download Sales Data CSV](../assets/data/sales.csv)  
-- **Source Code**: [View on GitHub](https://github.com/hanif-dev/sales-analysis)
+More: [View on GitHub](https://github.com/hanif-dev/Sales-Analysis)
