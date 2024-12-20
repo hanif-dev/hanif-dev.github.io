@@ -6,7 +6,7 @@ layout: default
 
 # 📊 Data Analysis Projects in the FMCG and Retail Industry
 
-Welcome to the **Data Analysis** page! Here, you will find various data analysis projects focused on the **FMCG industry**. These projects include different data analysis techniques to understand customer behavior, sales trends, and supply chain optimization.
+Welcome to the **Data Analysis** page! Here, you will find various data analysis projects focused on the **FMCG and retail industry**. These projects include different data analysis techniques to understand customer behavior, sales trends, and supply chain optimization.
 
 ---
 
