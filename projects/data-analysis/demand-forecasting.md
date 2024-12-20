@@ -11,12 +11,12 @@ description: "Identifying fluctuations in product demand based on seasonal trend
 1. **Sales Monthly Trends**  
    The monthly sales trend in the US shows a significant spike in December, indicating a surge in customer purchases during the holiday season. This highlights the importance of preparing for increased demand by ensuring adequate inventory and efficient logistics in the months leading up to year-end.
    
-   ![Fluctuation](../../images/demand_fluctuation.png)
+   ![Fluctuation](https://github.com/hanif-dev/hanif-dev.github.io/blob/main/images/demand_fluctuation.PNG)
 
 3. **Demand Forecasting Optimization Using ARIMA**  
    We project an increase in sales in certain months, which indicates a potential increase in revenue.
 
-   ![Demand Forecasting](../../images/demand_forecasting.png)
+   ![Demand Forecasting](https://github.com/hanif-dev/hanif-dev.github.io/blob/main/images/demand_fluctuation.PNG)
    
 ---
 
