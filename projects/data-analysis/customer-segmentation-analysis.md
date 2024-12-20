@@ -11,12 +11,13 @@ description: "Customer segmentation using clustering to understand different cus
 1. **Customer Segmentation Based on Age, Gender, and Quantity of Ordered**  
    The chart illustrates customer segmentation based on age, gender, and their assigned segments. Male customers predominantly belong to Segment 2 (yellow), particularly in older age groups, indicating that this segment might represent a distinct category of customers, possibly those with higher purchasing power or specific buying behaviors.
   
-   ![Segmenation](../../assets/images/customer_segmentation.png)
+   ![Segmenation](https://github.com/hanif-dev/hanif-dev.github.io/blob/main/images/customer_segmentation.PNG)
 
 2. **Distribution of Products Across Customer Segments**  
    The chart illustrates the distribution of products ordered across different customer segments. It is evident that the Superstore and School & Education categories dominate the quantity of orders, particularly in Segment 0 (blue), which appears to have the highest demand overall. 
 
-   ![Distribution](../../assets/images/product_distribution.png)!
+   ![Distribution](https://github.com/hanif-dev/hanif-dev.github.io/blob/main/images/product_distribution.PNG)
+   
 ---
 
 ## Tools Used  
@@ -31,6 +32,5 @@ description: "Customer segmentation using clustering to understand different cus
 -These insights suggest the need for targeted promotions in high-demand categories while exploring strategies to boost engagement in underperforming categories.
 ---
 
-## Dataset & Source Code  
-- **Dataset**: [Download Sales Data CSV](../../assets/data/sales.csv)  
+## Source Code  
 - **Source Code**: [View on GitHub](https://github.com/hanif-dev/sales-analysis)
