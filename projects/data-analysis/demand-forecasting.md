@@ -16,7 +16,7 @@ description: "Identifying fluctuations in product demand based on seasonal trend
 3. **Demand Forecasting Optimization Using ARIMA**  
    We project an increase in sales in certain months, which indicates a potential increase in revenue.
 
-   ![Demand Forecasting](https://github.com/hanif-dev/hanif-dev.github.io/blob/main/images/demand_fluctuation.PNG)
+   ![Demand Forecasting](https://github.com/hanif-dev/hanif-dev.github.io/blob/main/images/demand_forecasting.PNG)
    
 ---
 
