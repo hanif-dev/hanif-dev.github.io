@@ -35,3 +35,6 @@ description: "Distribution of product sales analysis for a food and beverage ret
 3. **Seasonal Campaigns**: Strong sales in Q4 highlight opportunities to capitalize on seasonal demand, while Q1 requires proactive campaigns to boost early-year revenue.
 
 ---
+
+## Source Code  
+- **Source Code**: [View on GitHub](https://github.com/hanif-dev/fnb_analysis_dashboard)
