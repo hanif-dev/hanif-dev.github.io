@@ -24,26 +24,11 @@ description: "Interactive dashboard showcasing coffee sales trends, customer beh
 
 ## Insights
 
-### 1. **Sales Trends**
-   - Arabica and Robusta dominate the market, with Robusta showing significant spikes in sales during mid-year and late-year periods.
-   - Excelsa and Liberica have minimal contributions, indicating potential for increased promotion or reconsideration of these product lines.
-   - Seasonal patterns show clear revenue peaks around December, suggesting holiday demand plays a key role in driving sales.
-
-### 2. **Market Performance**
-   - **The United States** leads with $6,667 in sales, far outpacing Ireland ($1,650) and the United Kingdom ($594).
-   - This concentration indicates opportunities for deeper penetration in Ireland and the UK, as well as exploring new geographic markets to diversify revenue streams.
-
-### 3. **Customer Behavior**
-   - Top customers, including Don Flinifft ($141) and Marja Urion ($139), are critical contributors to revenue, highlighting the importance of retaining these high-value customers.
-   - Mid-tier customers present an untapped opportunity for growth through loyalty incentives or personalized marketing campaigns.
-
-### 4. **Product Preferences**
-   - **Medium Roast** coffee and larger sizes (1.0 kg and 2.5 kg) generate the most sales, reflecting customer preferences for these product variations.
-   - The effectiveness of loyalty programs is evident, with loyalty card holders consistently contributing to higher purchase frequencies.
-
-### 5. **Geographic Sales Trends**
-   - Regional preferences and loyalty card penetration should be analyzed further to enhance product offerings tailored to specific regions.
-   - Despite low sales from smaller markets like the UK, potential exists to grow sales with targeted regional campaigns.
+1. **Sales Trends**: Arabica and Robusta are the most popular coffee bean types, with visible sales peaks during mid-year and late-year periods, suggesting seasonal demand.
+2. **Market Performance**: The United States leads as the top-performing country with $6,667 in sales, followed by Ireland ($1,650) and the United Kingdom ($594), showing potential for targeted market expansion.
+3. **Customer Insights**: High-value customers like Don Flinifft and Marja Urion contribute significantly to revenue, emphasizing the importance of retaining and nurturing top-tier customers.
+4. **Product Preferences**: Medium roast and larger packaging sizes (e.g., 1.0 kg and 2.5 kg) dominate sales, indicating a customer preference for these product types.
+5. **Loyalty Program Impact**: Sales data suggest that loyalty card holders have higher purchase frequencies, highlighting the effectiveness of loyalty programs in retaining customers.
 
 ---
 
