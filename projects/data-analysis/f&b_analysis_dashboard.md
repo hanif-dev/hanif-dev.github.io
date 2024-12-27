@@ -18,29 +18,9 @@ description: "Distribution of product sales analysis for a food and beverage ret
 ---
 
 ## Insights
-
-### 1. **Revenue Overview**
-   - **Total Revenue**: $17.91M from **52.6K orders**, with an **Average Transaction Price (ATP)** of **$340.7**.
-   - Quarterly and monthly analysis indicates steady growth, with significant revenue spikes in Q4, likely due to holiday season sales.
-
-### 2. **Revenue by Channel**
-   - **Distributors** account for the largest share at **$8.7M (48.5%)**, followed by **Online Sales ($6.1M, 34.05%)**.
-   - **Retail Channels** contribute $3.11M (17.39%), suggesting potential for growth in direct-to-consumer sales.
-
-### 3. **Revenue by Product Category**
-   - **Food** products dominate sales, contributing **91% of total revenue ($16M)**, with **Drink products** making up the remaining 9% ($1.54M).
-   - Among product groups:
-     - **Wheat** and **Oil** are the top-performing items, significantly outpacing other categories.
-     - **Powder** and **Popcorn** contribute the least, indicating potential for re-evaluation of these product lines.
-
-### 4. **Salesperson Performance**
-   - **Julio Lima** leads in both revenue and orders, processing **10,022 orders** and generating nearly $5M in revenue.
-   - **Carla Ferreira** and **Gustavo Barros** follow as top performers.
-   - Sales staff with fewer orders, like **Julieta Gomes**, may require support or a strategy to boost performance.
-
-### 5. **Order Trends**
-   - Orders and revenue peak in Q4 and December, indicating strong seasonal demand.
-   - Early months like January show lower sales activity, presenting opportunities for promotional campaigns to drive early-year revenue.
+1. **Channel Performance**: The distributor channel contributes the highest revenue at $8.7M (48.5%), followed by online sales ($6.1M, 34.05%), with retail sales lagging at $3.11M (17.39%).
+2. **Product Contribution**: Food products dominate revenue with 91% ($16M), while drinks contribute only 9% ($1.54M), indicating an opportunity to expand drink sales.
+3. **Salesperson Excellence**: Julio Lima leads with the highest revenue and orders, while other sales staff like Carla Ferreira and Gustavo Barros follow as key contributors.
 
 ---
 
