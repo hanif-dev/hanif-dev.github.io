@@ -12,7 +12,7 @@ description: "Analyzing employee retention behavior trends from historical HR da
 - **Hiring Trends**: Patterns in recruitment across months and years.
 - **Department Insights**: Employee count and resource allocation by department.
 
-   ![Dashboard](https://github.com/hanif-dev/hanif-dev.github.io/raw/main/images/hr.png)
+   ![Dashboard](https://github.com/hanif-dev/hanif-dev.github.io/raw/main/images/hr.PNG)
 
 ---
 
