@@ -18,17 +18,13 @@ description: "Interactive dashboard showcasing coffee sales trends, customer beh
 
 ## Tools Used    
 - **Excel**: Data preprocessing, analysis, and creation of interactive dashboards.
-- **Power Query**: Data transformation and cleaning for efficient visualization.
 
 ---
 
 ## Insights
-
-1. **Sales Trends**: Arabica and Robusta are the most popular coffee bean types, with visible sales peaks during mid-year and late-year periods, suggesting seasonal demand.
-2. **Market Performance**: The United States leads as the top-performing country with $6,667 in sales, followed by Ireland ($1,650) and the United Kingdom ($594), showing potential for targeted market expansion.
-3. **Customer Insights**: High-value customers like Don Flinifft and Marja Urion contribute significantly to revenue, emphasizing the importance of retaining and nurturing top-tier customers.
-4. **Product Preferences**: Medium roast and larger packaging sizes (e.g., 1.0 kg and 2.5 kg) dominate sales, indicating a customer preference for these product types.
-5. **Loyalty Program Impact**: Sales data suggest that loyalty card holders have higher purchase frequencies, highlighting the effectiveness of loyalty programs in retaining customers.
+1. **Revenue Breakdown**: The United States dominates sales with $35,639, followed by Ireland ($6,697) and the United Kingdom ($2,799), highlighting opportunities for market expansion.
+2. **Coffee Bean Trends**: Arabica and Robusta are the top-performing coffee types, with consistent sales peaks during the holiday season.
+3. **Customer Insights**: Allis Wilmore and Brenn Dundredge are top contributors, emphasizing the importance of customer retention and loyalty programs.
 
 ---
 
