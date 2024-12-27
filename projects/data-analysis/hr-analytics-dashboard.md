@@ -22,26 +22,9 @@ description: "Analyzing employee retention behavior trends from historical HR da
 ---
 
 ## Insights
-
-1. **Gender Diversity**:
-   - The organization has a total of **1,000 employees**, with **482 males** and **518 females**, reflecting a balanced gender distribution that supports inclusivity.
-
-2. **Income Levels**:
-   - The average income is segmented into:
-     - **Low Income**: $57,127
-     - **Middle Income**: $97,161
-     - **High Income**: $185,778
-   - This distribution suggests a diverse range of roles and responsibilities, from entry-level to senior-level positions.
-
-3. **Geographical Presence**:
-   - **North America** dominates with **643 employees**, followed by **Europe (218 employees)** and **Asia (139 employees)**. This distribution indicates a strong focus on the North American market, with potential growth opportunities in other regions.
-
-4. **Department Insights**:
-   - **IT** leads with **241 employees**, followed by **Engineering (158)** and **Sales (140)**.
-   - Smaller departments, such as **Accounting (96 employees)**, may require additional resources or reallocation to maintain operational efficiency.
-
-5. **Hiring Trends**:
-   - The dashboard's filters allow for exploration of hiring trends by **month** and **year**, offering insights into seasonal or strategic hiring practices.
+1. **Gender Diversity**: The organization maintains a balanced gender ratio with 518 females and 482 males, showcasing inclusivity.
+2. **Department Strength**: IT and Engineering have the largest employee counts, while Accounting is the smallest, suggesting potential resource gaps.
+3. **Geographical Presence**: North America dominates with 643 employees, highlighting a concentrated market presence with growth opportunities elsewhere.
 
 ---
 
