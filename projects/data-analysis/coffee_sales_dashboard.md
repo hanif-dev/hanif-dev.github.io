@@ -34,3 +34,6 @@ description: "Interactive dashboard showcasing coffee sales trends, customer beh
 3. **Customer Loyalty Optimization**: Enhance loyalty programs to retain top customers and incentivize increased spending from mid-tier customers.
 
 ---
+
+## Source Code  
+- **Source Code**: [View on GitHub](https://github.com/hanif-dev/coffee_sales_dashboard)
