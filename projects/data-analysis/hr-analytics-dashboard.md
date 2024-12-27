@@ -34,3 +34,6 @@ description: "Analyzing employee retention behavior trends from historical HR da
 3. **Opportunities for Optimization**: The data highlights potential areas for improvement, such as underrepresented departments and regional imbalances, guiding actionable strategies for growth.
 
 ---
+
+## Source Code  
+- **Source Code**: [View on GitHub](https://github.com/hanif-dev/hr_analytics_dashboard)
