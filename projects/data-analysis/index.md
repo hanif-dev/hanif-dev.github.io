@@ -82,6 +82,27 @@ Welcome to the **Data Analysis** page! Here, you will find various data analysis
 
 ---
 
+### 11. **Human Resources Analysis Dashboard**
+   - **Description**: Analyzing employee retention behavior trends from historical HR data to improve collaboration across departments and maintain balance using Data Analytics and Visualizations.
+   - **Tools**: Excel.
+   - **Project Link**: [View Details](./hr-analytics-dashboard.md)
+
+---
+
+### 12. **Coffee Sales Dashboard**
+   - **Description**: Interactive dashboard showcasing coffee sales trends, customer behavior, and market insights to drive strategic decision-making.
+   - **Tools**: Excel.
+   - **Project Link**: [View Details](./coffee_sales_dashboard.md)
+
+---
+
+### 13. **Food and Beverage Sales Analysis Dashboard**
+   - **Description**: Visualizing sales distribution for a food and beverage retail store.
+   - **Tools**: Power BI.
+   - **Project Link**: [View Details](./f&b_analysis_dashboard.md)
+
+---
+
 ## 🛠 **Tools Used**
 These projects utilize various tools and technologies:
 - **Python**: Pandas, NumPy, Matplotlib, Seaborn, Plotly.
