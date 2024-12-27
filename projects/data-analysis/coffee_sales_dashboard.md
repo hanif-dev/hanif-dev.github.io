@@ -12,7 +12,7 @@ description: "Interactive dashboard showcasing coffee sales trends, customer beh
 - **Top 5 Customers**: Highlight most valuable customers to inform retention strategies.
 - **Product Preferences**: Segment sales by roast type, size, and loyalty card participation for deeper insights.
 
-   ![Dashboard](https://github.com/hanif-dev/hanif-dev.github.io/raw/main/images/coffee.png)
+   ![Dashboard](https://github.com/hanif-dev/hanif-dev.github.io/raw/main/images/coffee.PNG)
 
 ---
 
