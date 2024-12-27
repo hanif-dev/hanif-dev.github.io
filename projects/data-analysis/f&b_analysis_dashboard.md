@@ -13,7 +13,7 @@ description: "Distribution of product sales analysis for a food and beverage ret
 - **Channel Distribution**: Sales performance segmented by distributors, online, and retail channels.
 - **Salesperson Performance**: Individual contributions of sales staff in revenue and order volume.
 
-   ![Dashboard](https://github.com/hanif-dev/hanif-dev.github.io/raw/main/images/f&b.png)
+   ![Dashboard](https://github.com/hanif-dev/hanif-dev.github.io/raw/main/images/f&b.PNG)
 
 ---
 
