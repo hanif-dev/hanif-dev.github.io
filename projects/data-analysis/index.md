@@ -115,8 +115,8 @@ Welcome to the **Data Analysis** page! Here, you will find various data analysis
 These projects utilize various tools and technologies:
 - **Python**: Pandas, NumPy, Matplotlib, Seaborn, Plotly.
 - **Machine Learning**: Scikit-learn, KMeans, ARIMA.
-- **Visualization**: Matplotlib, Seaborn, Plotly.
-- **Data Processing**: Excel.
+- **Visualization**: Matplotlib, Seaborn, Plotly, Power BI.
+- **Data Processing**: Excel, SQL.
 
 ---
 
