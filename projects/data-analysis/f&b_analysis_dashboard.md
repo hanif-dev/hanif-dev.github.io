@@ -37,5 +37,5 @@ description: "Distribution of product sales analysis for a food and beverage ret
 ---
 
 ## Dataset & Source Code  
-- **Dataset**: [Download product and sales data XLSX](https://github.com/hanif-dev/fnb_analysis_dashboard/tree/main/dataset)
+- **Dataset**: [Download Product and Sales Data XLSX](https://github.com/hanif-dev/fnb_analysis_dashboard/tree/main/dataset)
 - **Source Code**: [View on GitHub](https://github.com/hanif-dev/fnb_analysis_dashboard)
