@@ -118,7 +118,7 @@ dim_customer      dim_product      dim_currency     dim_salesterritory
               | Name            |
               | rowguid         |
               +-----------------+
- 
+```
 ---
 
 ## Tables Used in the Model
