@@ -25,7 +25,7 @@ This project focuses on analyzing raw sales data from a retail company selling *
 - **Description**:  
   This dashboard provides insights into sales trends across months and years, highlighting seasonality patterns. It also analyzes performance by product categories and regions.
 - **Visualization**:  
-  ![Seasonality](https://github.com/hanif-dev/hanif-dev.github.io/raw/main/images/seaosality.PNG)
+  ![Seasonality](https://github.com/hanif-dev/hanif-dev.github.io/raw/main/images/seasonality.PNG)
 - **Conclusion**:  
   Sales show a strong seasonality pattern, with peaks during Q4. Bikes dominate sales, and regions like Canada and Australia contribute the most.
 
