@@ -1,0 +1,91 @@
+---
+layout: project
+title: "Retail Sales Analysis & Power BI Dashboard"
+tags: [Data Analysis, Sales Data, Power BI, MySQL, Python]
+category: "Data Science"
+description: "An analysis of retail sales data for bikes, components, clothing, and accessories with insights visualized in an interactive Power BI dashboard."
+---
+
+# Retail Sales Analysis & Power BI Dashboard
+## Project Overview
+
+This project focuses on analyzing raw sales data from a retail company selling **bikes, components, clothing, and accessories**. The project involves cleaning and transforming the data using **Python** and **MySQL**, followed by analyzing the data to generate insights. The final product is an interactive **Power BI dashboard** that provides real-time business insights.
+
+### Key Steps:
+1. **Data Preprocessing**: Clean, normalize, and transform the raw data from Excel to MySQL.
+2. **Data Analysis**: Use Python to generate insights from the data, focusing on sales trends, customer behavior, and product performance.
+3. **Power BI Dashboard**: Build an interactive dashboard to visualize key metrics and trends, providing actionable insights for decision-making.
+
+---
+
+## Visualizations
+
+### 1. **Month-Wise Sales Analysis**
+- **Description**: A bar chart showing the total sales for each month. This helps to understand seasonal trends and monthly performance.
+- **Visualization**:  
+  ![Month-Wise Sales](path_to_visualization_image.png)
+- **Conclusion**:  
+  The sales pattern shows clear peaks during certain months, possibly due to seasonal demand. These peaks can be leveraged for planning marketing campaigns or inventory adjustments.
+
+---
+
+### 2. **Sales by Product Category**
+- **Description**: A pie chart visualizing the sales distribution across different product categories: Bikes, Components, Clothing, and Accessories.
+- **Visualization**:  
+  ![Sales by Product Category](path_to_visualization_image.png)
+- **Conclusion**:  
+  The pie chart indicates that **Bikes** contribute the most to total sales, while **Clothing** has the lowest sales. This can inform inventory decisions and promotional strategies.
+
+---
+
+### 3. **Sales Trends by Region**
+- **Description**: A line chart depicting sales trends across different regions over time. This helps identify regional demand fluctuations and market behavior.
+- **Visualization**:  
+  ![Sales Trends by Region](path_to_visualization_image.png)
+- **Conclusion**:  
+  Sales in **Region A** have consistently outperformed other regions, suggesting a stronger customer base or more effective marketing. Targeting underperforming regions might boost overall sales.
+
+---
+
+### 4. **Customer Demographics Insights**
+- **Description**: A scatter plot showing the relationship between **Yearly Income** and **Sales Amount**, segmented by **Gender**. This visualization helps analyze customer spending patterns.
+- **Visualization**:  
+  ![Customer Demographics](path_to_visualization_image.png)
+- **Conclusion**:  
+  Customers with higher yearly incomes tend to make larger purchases, particularly **males**. Tailoring promotions to this group could increase sales for high-end products.
+
+---
+
+### 5. **Sales by Age Group**
+- **Description**: A bar chart displaying sales data segmented by **Age Group**. This analysis helps identify which age demographics are the biggest spenders.
+- **Visualization**:  
+  ![Sales by Age Group](path_to_visualization_image.png)
+- **Conclusion**:  
+  The **25-34** age group leads in sales, suggesting that marketing campaigns should target this age group more aggressively to maximize revenue.
+
+---
+
+## Key Insights & Conclusion
+
+1. **Seasonal Trends**: Sales show a clear pattern of peaks during specific months. Planning for these peaks with additional stock and marketing efforts can optimize performance.
+2. **Product Focus**: **Bikes** dominate sales, while **Clothing** lags behind. This insight can help prioritize product promotions and inventory management.
+3. **Regional Strategy**: Some regions are performing better than others, and focused marketing in underperforming areas could balance sales growth across the country.
+4. **Target Demographics**: High-income customers, especially males, are key drivers of sales. Tailored marketing for this group may increase high-value transactions.
+5. **Age Group Focus**: The **25-34** age group is the most significant contributor to sales, making it a priority demographic for future promotions.
+
+---
+
+## Conclusion
+
+This project successfully analyzes sales data, providing valuable insights for the business. The **Power BI dashboard** serves as an interactive tool for real-time decision-making. Future work can include further refinement of the dashboard, additional data sources, and predictive models for forecasting sales trends.
+
+---
+
+### Technologies Used:
+- **Python**: Data cleaning, analysis, and transformation.
+- **MySQL**: Data storage and SQL queries.
+- **Power BI**: Data visualization and dashboard creation.
+
+## Dataset & Source Code  
+- **Dataset**: [Download product and sales data XLSX](https://github.com/hanif-dev/end-to-end/tree/main/data)
+- **Source Code**: [View on GitHub](https://github.com/hanif-dev/end-to-end).
