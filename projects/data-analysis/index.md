@@ -103,6 +103,14 @@ Welcome to the **Data Analysis** page! Here, you will find various data analysis
 
 ---
 
+### 14. **Retail Sales Analysis & Power BI Dashboard**
+   - **Description**: End-to-end Retail Sales Analysis for bikes, components, clothing, and accessories.
+   - **Tools**: SQL, Python, Power BI.
+   - **Project Link**: [View Details](./retail-analysis-dashboard.md)
+
+---
+
+
 ## 🛠 **Tools Used**
 These projects utilize various tools and technologies:
 - **Python**: Pandas, NumPy, Matplotlib, Seaborn, Plotly.
