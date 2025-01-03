@@ -213,7 +213,7 @@ This project focuses on analyzing raw sales data from a retail company selling *
       - 25–40: 25K  
       - 40–60: 28K  
       - 60–80: 6,884  
-      - '>'80: 168  
+      - />80: 168  
 
   - **Sales by Age Group**:  
     A bar chart showing total sales amounts by customer age groups.
