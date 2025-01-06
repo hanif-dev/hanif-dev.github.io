@@ -1,6 +1,6 @@
 ---
 title: "Business Analytics Projects"
-description: "List of data analysis projects"
+description: "List of business analytics projects"
 layout: default
 ---
 
@@ -12,10 +12,15 @@ Welcome to the **Business Analytics** page! Here, you will find various Business
 
 ## 🚀 **Project List**
 
-### 1. **Udacity Business Analytics Nanodegree**
-   - **Description**: Some projects in Excel, SQL, and Tableau.
-   - **Tools**: Excel, SQL, & Tableau.
-   - **Project Link**: [View Details](./business-analytics-nanodegree.md)
+<ul>
+{% for project in site.business-analytics %}
+  <li>
+    <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
+    <p><strong>Description:</strong> {{ project.description }}</p>
+    <p><strong>Tools:</strong> {{ project.tools | default: "Not specified" }}</p>
+  </li>
+{% endfor %}
+</ul>
 
 ---
 
