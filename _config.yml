@@ -28,7 +28,6 @@ navbar_links:
   - title: "Achievements"
     url: "/achievements/"
 
-
 # --------------------------
 # Koleksi Proyek
 # --------------------------
@@ -40,7 +39,6 @@ collections:
   business-analytics:
     output: true
     permalink: /projects/business-analytics/:title/
-
 
 # Default Metadata untuk Koleksi Proyek
 defaults:
