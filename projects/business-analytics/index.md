@@ -10,6 +10,12 @@ Welcome to the **Business Analytics** page! Below is the list of projects in thi
 
 ---
 
+## 🔍 Debugging Output
+<!-- Debugging untuk memeriksa apakah koleksi 'business-analytics' terdeteksi -->
+{{ site.business-analytics | inspect }}
+
+---
+
 ## 🚀 **Project List**
 
 <ul>
