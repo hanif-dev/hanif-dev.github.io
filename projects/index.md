@@ -1,14 +1,11 @@
 ---
 layout: default
-title: "Project List"
+title: "Welcome to My Projects"
 ---
-{% for category in site.categories %}
-## {{ category[0] }}  
-<ul>
-    {% for project in category[1] %}
-    <li>
-        <a href="{{ project.url }}">{{ project.title }}</a> - {{ project.description }}
-    </li>
-    {% endfor %}
-</ul>
-{% endfor %}
+# Welcome to My Portfolio
+
+Explore my professional projects in the following categories:
+
+- [Data Analysis Projects](/projects/data-analysis/)
+- [Business Analytics Projects](/projects/business-analytics/)
+
