@@ -32,13 +32,9 @@ navbar_links:
 # Koleksi Proyek
 # --------------------------
 collections:
-  # Koleksi untuk Proyek
-  data-analysis:
+  projects:
     output: true
-    permalink: /projects/data-analysis/:title/
-  business-analytics:
-    output: true
-    permalink: /projects/business-analytics/:title/
+    permalink: /projects/:categories/:title/
 
 # Default Metadata untuk Koleksi Proyek
 defaults:
