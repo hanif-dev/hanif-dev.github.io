@@ -7,7 +7,7 @@ layout: default
 
 # Udacity Business Analytics Nanodegree
 
-## Program Curriculum:
+## Program Curriculum
 
 ### **Welcome to the Program** - Project 1: Interpret a Data Visualization
 > In this project, you’ll explore an interactive data dashboard to uncover insights. You’ll write a short report explaining each insight, and how you found the information to reach your conclusion from the dashboard.
