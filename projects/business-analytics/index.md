@@ -6,7 +6,7 @@ layout: default
 
 # 📊 Business Analytics Projects
 
-Welcome to the **Business Analytics** page! Here, you will find various Business Analytics projects.
+Welcome to the **Business Analytics** page! Below is the list of projects in this category.
 
 ---
 
