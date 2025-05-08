@@ -15,7 +15,7 @@ Welcome to the **Web Development** page!
 ### 1. **Business consulting web development**
    - **Description**: Monthly sales analysis to identify sales patterns by product category and location.
    - **Tools**: Wordpress, Laragon, cPanel, Elementor, Yoast SEO, Custom CSS & JavaScript
-   - **Project Link**: [View Details](./web-development.md)
+   - **Project Link**: [View Details](https://github.com/hanif-dev/web-development/blob/main/Wordpress%20Portfolio.png)
 
 ### 2. **Frontend Development**
 
@@ -23,7 +23,7 @@ Welcome to the **Web Development** page!
   A static website that presents both general information and critical insights about a university, including its brief history, location, and campus culture—alongside reported controversies and public criticisms. The purpose of this project is to explore how frontend web design can be used to organize and display sensitive or contrasting information in a clear, balanced, and accessible manner. 
 * **Tools**:
   HTML5, CSS3 (Grid & Flexbox), JavaScript, Visual Studio Code
-* **Project Link**: [View Details](./web-development.md)
+* **Project Link**: [View Details](https://github.com/hanif-dev/web-development/blob/main/HTML-CSS-Javascript%20Portfolio.png)
 
 ---
 
