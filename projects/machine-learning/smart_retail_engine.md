@@ -3,7 +3,7 @@ layout: project
 title: "Smart Retail Engine: Personalized Product Recommendations"
 tags: [Machine Learning, Python, Pandas, Scikit-learn, TensorFlow, Prophet, Flask, Streamlit, Recommendation Systems, RFM Analysis, Clustering, Time Series]
 category: "Machine Learning for Retail"
-description: "A comprehensive project exploring various machine learning techniques to build a personalized product recommendation system for retail customers, including time series forecasting, customer segmentation, and multiple recommendation strategies with a Flask backend and Streamlit frontend."
+description: "Building a smart retail engine with personalized recommendations through time series analysis, customer segmentation, and various ML techniques."
 ---
 
 # Smart Retail Engine: Personalized Product Recommendations - Project Details
