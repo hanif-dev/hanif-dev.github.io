@@ -1,3 +1,9 @@
+---
+title: "Machine Learning for Retail Analytics Projects"
+description: "A collection of machine learning projects focused on enhancing retail business intelligence and customer experience."
+layout: default
+---
+
 📊 Smart Retail Engine: Personalized Product Recommendations
 
 Welcome to the Smart Retail Engine project page! Here, you will find details about our efforts in building a system for personalized product recommendations in the retail domain.
