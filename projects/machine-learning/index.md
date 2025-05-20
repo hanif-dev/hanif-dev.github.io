@@ -13,7 +13,7 @@ Welcome to the Smart Retail Engine project page! Here, you will find details abo
 **Smart Retail Engine**
 Description: A comprehensive project exploring various techniques for personalized product recommendations, including time series forecasting, RFM analysis, customer clustering (K-Means and Autoencoders), and several recommendation strategies (RFM-based, Popular, Item-Based, User-Based, Hybrid). The project includes a Flask backend API and user interfaces built with Gradio, Tkinter, and Streamlit.
 Tools: Python, Pandas, NumPy, Scikit-learn, TensorFlow/Keras, Prophet, Flask, Gradio, Tkinter, Streamlit.
-Project Link: [View Details](https://github.com/hanif-dev/hanif-dev.github.io/blob/main/projects/machine-learning/smart_retail_engine.md)
+Project Link: [View Details](https://hanif-dev.github.io/projects/machine-learning/smart_retail_engine/)
 
 ## 🛠 **Tools Used**
 
