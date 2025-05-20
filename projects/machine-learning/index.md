@@ -17,4 +17,4 @@ These projects utilize various tools and technologies:
 * **Backend API:** Flask
 * **User Interfaces:** Gradio (for initial prototyping), Tkinter (for desktop application), Streamlit (for web application)
 
-Click on [View Details](https://github.com/hanif-dev/) for the main project to see the full explanation, code structure, and analysis results within the repository. You can update the "View Details" link above to point to a more specific page or documentation if you create one later.
+Click on [View Details](https://github.com/hanif-dev/) for the main project to see the full explanation, code structure, and analysis results within the repository.
