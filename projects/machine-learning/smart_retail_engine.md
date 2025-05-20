@@ -57,7 +57,7 @@ Project Links:
 
 ## Link to Project Repository
 
-[Link to the main GitHub Repository](https://github.com/your-username/smart_retail_engine)
+[Link to the main GitHub Repository](https://github.com/hanif-dev/ds-ml-projects/smart_retail_engine)
 
 ---
 
