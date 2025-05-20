@@ -56,5 +56,5 @@ Welcome to the detailed page for the Smart Retail Engine project! This project e
 
 ## Dataset & Source Code
 
-- **Dataset**: [Link to your dataset (if publicly available or describe its nature)]
+- **Dataset**: [Download Product and Sales Data XLSX](https://github.com/hanif-dev/ds-ml-projects/blob/main/smart_retail_engine/data/raw/global-superstore.xlsx)
 - **Source Code**: [View on GitHub](https://github.com/hanif-dev/ds-ml-projects/smart_retail_engine). This page provides a more detailed overview of the Smart Retail Engine project, outlining the different phases, techniques used, and links to specific parts of the project for further exploration.
