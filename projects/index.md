@@ -8,5 +8,7 @@ Explore my professional projects in the following categories:
 
 - [Data Analysis Projects](/projects/data-analysis/)
 - [Business Analytics Projects](/projects/business-analytics/)
+- [Machine Learning Projects](/projects/machine-learning/)
 - [Web Development Projects](/projects/web-development/)
+
 
