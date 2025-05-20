@@ -15,7 +15,7 @@ Description: A comprehensive project exploring various techniques for personaliz
 Tools: Python, Pandas, NumPy, Scikit-learn, TensorFlow/Keras, Prophet, Flask, Gradio, Tkinter, Streamlit.
 Project Link: [View Details](https://github.com/hanif-dev/hanif-dev.github.io/blob/main/projects/machine-learning/smart_retail_engine.md)
 
-🛠 Tools Used
+## 🛠 **Tools Used**
 
 These projects utilize various tools and technologies:
 
