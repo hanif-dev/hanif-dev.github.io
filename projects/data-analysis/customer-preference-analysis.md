@@ -11,7 +11,7 @@ description: "Analyzing customer preferences to identify the most popular produc
 1. **Purchase Volume by Age Group and Gender**  
    From this analysis, we can see that the 46-55 age group (category D) is the most active group in purchasing products, with men dominating purchases across all age groups.
    
-![Volume](../../assets/images/purchase_volume.png)
+![Volume](../../assets/images/purchase_volume.PNG)
 
 ---
 
