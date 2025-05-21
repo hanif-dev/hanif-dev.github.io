@@ -11,12 +11,12 @@ description: "Analyzing customer behavior trends from historical sales data."
 1. **Trends in Product Purchases Over Time**  
    A significant spike occurred in the 'Others' category in May 2021, with the number of purchases reaching more than 50,000 units. This was most likely influenced by major campaigns, special promotions, or seasonal factors that drove massive purchases.
    
-![Trends](../../assets/images/purchasing_trends2.png)
+![Trends](../../assets/images/purchasing_trends2.PNG)
 
 2. **Top 5 Product Categories Per Month**  
    The 'Mobiles & Tablets' and 'Men's Fashion' categories showed peak performance in several months of December 2020, such as May 2021 and December 2020. The 'Others' category showed the highest performance in April 2021.
    
-![Top](../../assets/images/top_product.png)
+![Top](../../assets/images/top_product.PNG)
 
 ---
 
