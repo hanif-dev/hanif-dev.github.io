@@ -12,14 +12,19 @@ Welcome to the **Machine Learning** page! Here, you'll find details about my eff
 
 ## 🚀 **Project List**
 
-**Smart Retail Engine**
-Description: A comprehensive project exploring various techniques for personalized product recommendations, including time series forecasting, RFM analysis, customer clustering (K-Means and Autoencoders), and several recommendation strategies (RFM-based, Popular, Item-Based, User-Based, Hybrid). The project includes a Flask backend API and user interfaces built with Gradio, Tkinter, and Streamlit.
-Tools: Python, Pandas, NumPy, Scikit-learn, TensorFlow/Keras, Prophet, Flask, Gradio, Tkinter, Streamlit.
-Project Link: [View Details](https://hanif-dev.github.io/projects/machine-learning/smart_retail_engine/)
+**1. Smart Retail Engine: Personalized Product Recommendations**
+
+**Description:** A comprehensive project exploring various techniques for personalized product recommendations in the retail domain. This includes time series forecasting with Prophet, RFM analysis for customer segmentation, customer clustering using K-Means and Autoencoders (TensorFlow/Keras), and several recommendation strategies (RFM-based, Popular, Item-Based, User-Based, Hybrid collaborative filtering). The project is deployed with a Flask backend API and features user interfaces built with Gradio, Tkinter, and Streamlit.
+
+**Tools:** Python, Pandas, NumPy, Scikit-learn, TensorFlow/Keras, Prophet, Flask, Gradio, Tkinter, Streamlit.
+
+**Project Link:** [View Details](https://hanif-dev.github.io/projects/machine-learning/smart_retail_engine/)
+
+---
 
 ## 🛠 **Tools Used**
 
-These projects utilize various tools and technologies:
+This project primarily utilize various tools and technologies for Machine Learning development and deployment:
 
 * **Data Analysis & Manipulation:** Pandas, NumPy
 * **Machine Learning:** Scikit-learn (for clustering and collaborative filtering), TensorFlow/Keras (for Autoencoders)
