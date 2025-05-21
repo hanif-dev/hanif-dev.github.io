@@ -11,12 +11,12 @@ description: "Analyzing distribution of product from place name sales data."
 1. **Sales Distribution by Place Name**  
    The Global Sales Distribution chart showcases the global distribution of sales by Place Name, with the intensity of the color gradient reflecting sales volume. Regions with higher sales are represented in red, while lower sales are shaded in blue.
    
-![Trends](../../assets/images/purchasing_trends2.png)
+![Trends](../../assets/images/sales_distribution.PNG)
 
 2. **Plot the US Map**  
    The chart highlights the geographic scope of the United States, serving as a baseline for understanding sales distribution across regions.
    
-![Top](../../assets/images/top_product.png)
+![Top](../../assets/images/map.PNG)
 
 ---
 
