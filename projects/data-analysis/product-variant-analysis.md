@@ -11,7 +11,7 @@ description: "Analyzing Product Variant Sales by Region."
 1. **Distribution of Product Variant Sales by Region**  
    The chart shows the distribution of product variant sales across regions, with the South recording the highest sales volume compared to other regions.
 
-   ![Sales Trends](../../assets/images/variant.png)
+   ![Sales Trends](../../assets/images/variant.PNG)
 
 ---
 
