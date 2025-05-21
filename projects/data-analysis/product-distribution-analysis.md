@@ -11,7 +11,7 @@ description: "Distribution of product sales analysis based on region."
 1. **Total Quantity Ordered by Region**  
    Based on the regional analysis, the Southern region recorded the highest quantity ordered, reaching 199,659 units, followed by the Midwest with 171,968 units.
 
-   ![Region](../../assets/images/ordered_region.png)
+   ![Region](../../assets/images/ordered_region.PNG)
 
 ---
 
