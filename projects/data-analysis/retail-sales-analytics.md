@@ -14,55 +14,75 @@ This page serves as a comprehensive overview of the **Retail Sales Analytics** p
 
 ## 🚀 Individual Analysis Components
 
-### 1. Churn Analytics
-**Description:** Predicting customers who are likely to stop using products (churn analysis) to enable proactive retention strategies.
-**Tools:** Python, Logistic Regression, Random Forest.
-**Project Link:** [View Details](./churn_analytics.md)
+## 🚀 **Project List**
 
-### 2. Demand Fluctuation Forecasting Analysis
-**Description:** Identifying fluctuations in product demand based on seasonal trends and predicting future product demand using advanced time series models.
-**Tools:** Python, Seaborn, Time Series Analysis, ARIMA.
-**Project Link:** [View Details](./demand_forecasting.md)
+### 1. **Churn Analytics**
+   - **Description**: Predicting customers who are likely to stop using products (churn analysis).
+   - **Tools**: Python, Logistic Regression, Random Forest.
+   - **Project Link**: [View Details](./churn-analytics.md)
 
-### 3. Customer Segmentation Analysis for Personalized Marketing
-**Description:** Customer segmentation using clustering techniques (K-Means) to understand different customer groups for targeted and personalized marketing campaigns.
-**Tools:** Python, Scikit-learn, KMeans Clustering.
-**Project Link:** [View Details](./customer_segmentation.md)
+---
 
-### 4. Price Elasticity Analytics
-**Description:** Measuring the sensitivity of product demand to changes in price, crucial for optimizing pricing strategies and maximizing revenue.
-**Tools:** Python, NumPy, Regression Analysis.
-**Project Link:** [View Details](./price_elasticity_analytics.md)
+### 2. **Demand Fluctuation Forecasting Analysis**
+   - **Description**: Identifying fluctuations in product demand based on seasonal trends and predicting product demand based on historical data using time series models.
+   - **Tools**: Python, Seaborn, Time Series Analysis, ARIMA.
+   - **Project Link**: [View Details](./demand-forecasting.md)
 
-### 5. Consumer Preference Analysis by Demographic Factors
-**Description:** Analyzing customer preferences to identify the most popular products and understand how demographics influence purchasing decisions.
-**Tools:** Python, Pandas, Visualization.
-**Project Link:** [View Details](./consumer_preference_analysis.md)
+---
 
-### 6. Customer Trend Analysis
-**Description:** Analyzing evolving customer behavior trends from historical sales data to identify patterns and predict future purchasing habits.
-**Tools:** Python, Pandas, Visualization.
-**Project Link:** [View Details](./customer_trend_analysis.md)
+### 3. **Customer Segmentation Analysis for Personalized Marketing**
+   - **Description**: Customer segmentation using clustering to understand different customer groups.
+   - **Tools**: Python, Scikit-learn, KMeans Clustering.
+   - **Project Link**: [View Details](./customer-segmentation-analysis.md)
 
-### 7. Geospatial Distribution Analysis
-**Description:** Visualizing and analyzing customer and sales distribution across different geographical regions to identify high-performing areas and growth opportunities.
-**Tools:** Python, Pandas, Visualization.
-**Project Link:** [View Details](./geospatial_distribution_analysis.md)
+---
 
-### 8. Sales Trend Analysis by Time
-**Description:** In-depth product sales analysis over given periods of time (e.g., daily, weekly, monthly) to understand performance fluctuations and identify key selling periods.
-**Tools:** Python, Pandas, Matplotlib.
-**Project Link:** [View Details](./sales_trend_analysis.md) 
+### 4. **Price Elasticity Analytics**
+   - **Description**: Measuring price sensitivity to the demand for sales products.
+   - **Tools**: Python, NumPy, Regression Analysis.
+   - **Project Link**: [View Details](./price-elasticity-analytics.md)
 
-### 9. Product Distribution Performance Analysis
-**Description:** Monthly sales analysis to identify sales patterns by product category and location, optimizing inventory and distribution strategies.
-**Tools:** Python, Pandas, Matplotlib.
-**Project Link:** [View Details](./product_distribution_performance_analysis.md) 
+---
 
-### 10. Analyzing Product Variant Sales by Region
-**Description:** Visualizing sales distribution across different product categories and their variants by region to pinpoint popular items in specific markets.
-**Tools:** Python, Matplotlib, Plotly.
-**Project Link:** [View Details](./product_variant_sales_analysis.md) 
+### 5. **Consumer Preference Analysis by Demographic Factors**
+   - **Description**: Analyzing customer preferences to identify the most popular products.
+   - **Tools**: Python, Pandas, Visualization.
+   - **Project Link**: [View Details](./customer-preference-analysis.md)
+
+---
+
+### 6. **Customer Trend Analysis**
+   - **Description**: Analyzing customer behavior trends from historical sales data.
+   - **Tools**: Python, Pandas, Visualization.
+   - **Project Link**: [View Details](./customer-trend-analysis.md)
+
+---
+
+### 7. **Geospatial Distribution Analysis**
+   - **Description**: Analyzing customer behavior trends from historical sales data.
+   - **Tools**: Python, Pandas, Visualization.
+   - **Project Link**: [View Details](./geospatial-distribution-analysis.md)
+
+---
+
+### 8. **Sales Trend Analysis by Time**
+   - **Description**: Product sales analysis over a given period of time.
+   - **Tools**: Python, Pandas, Matplotlib.
+   - **Project Link**: [View Details](./sales-trend-analysis.md)
+
+---
+
+### 9. **Product Distribution Performance Analysis**
+   - **Description**: Monthly sales analysis to identify sales patterns by product category and location.
+   - **Tools**: Python, Pandas, Matplotlib.
+   - **Project Link**: [View Details](./product-distribution-analysis.md)
+
+---
+
+### 10. **Analyzing Product Variant Sales by Region**
+   - **Description**: Visualizing sales distribution across different product categories.
+   - **Tools**: Python, Matplotlib, Plotly.
+   - **Project Link**: [View Details](./sales-distribution-analysis.md)
 
 ---
 
