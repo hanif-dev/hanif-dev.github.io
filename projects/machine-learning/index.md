@@ -1,14 +1,16 @@
 ---
-title: "Machine Learning for Retail Analytics Projects"
-description: "A collection of machine learning projects focused on enhancing retail business intelligence and customer experience."
+title: "Machine Learning Projects"
+description: "Explore my machine learning projects, focusing on personalized recommendation systems and predictive modeling."
 layout: default
 ---
 
-📊 Smart Retail Engine: Personalized Product Recommendations
+# 🧠 Machine Learning Projects
 
-Welcome to the Smart Retail Engine project page! Here, you will find details about our efforts in building a system for personalized product recommendations in the retail domain.
+Welcome to the **Machine Learning** page! Here, you'll find details about my efforts in building and exploring various Machine Learning projects, focusing on practical applications and model development.
 
-🚀 Project Details
+---
+
+## 🚀 **Project List**
 
 **Smart Retail Engine**
 Description: A comprehensive project exploring various techniques for personalized product recommendations, including time series forecasting, RFM analysis, customer clustering (K-Means and Autoencoders), and several recommendation strategies (RFM-based, Popular, Item-Based, User-Based, Hybrid). The project includes a Flask backend API and user interfaces built with Gradio, Tkinter, and Streamlit.
