@@ -19,7 +19,7 @@ Welcome to the **Data Analysis** page! Here, you will find various data analysis
 
 ---
 
-### 2. Retail Sales Analytics: Comprehensive Data Analysis**
+### 2. **Retail Sales Analytics: Comprehensive Data Analysis**
    - **Description:** This project involves **10 in-depth analyses** of retail sales data, covering **customer churn prediction**, **demand forecasting**, **customer segmentation**, **price elasticity**, and detailed **sales performance tracking** across various dimensions like time, demographics, and product distribution.
    - **Tools**: Python (Pandas, NumPy, Matplotlib, Seaborn, Plotly, Scikit-learn), Regression Analysis, Time Series Analysis (ARIMA).
    - **Project Link:** [View Details](./retail-sales-analytics.md)
