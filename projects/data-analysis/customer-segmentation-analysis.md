@@ -30,6 +30,7 @@ description: "Customer segmentation using clustering to understand different cus
 ## Conclusion  
 -This segmentation suggests that personalized marketing strategies could be tailored for each group, such as targeting male customers in Segment 2 with premium products, while focusing on broader offerings for females in Segment 0 to maximize engagement.
 -These insights suggest the need for targeted promotions in high-demand categories while exploring strategies to boost engagement in underperforming categories.
+
 ---
 
 ## Source Code  
