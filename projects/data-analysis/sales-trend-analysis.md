@@ -11,7 +11,7 @@ description: "Product sales analysis over a given period of time."
 1. **Monthly Quantity Ordered Trend**  
    The monthly trend analysis shows significant fluctuations in Quantity Ordered. A sharp increase is observed in December 2020 with 102,520 units, followed by a decline in January and February 2021.
 
-   ![Sales Trends](../../assets/images/ordered_month.png)
+   ![Sales Trends](../../assets/images/ordered_month.PNG)
 
 ---
 
