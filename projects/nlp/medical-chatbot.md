@@ -51,4 +51,4 @@ Welcome to the detailed page for the Medical Chatbot project! This project focus
 ## Dataset & Source Code
 
 -   **Dataset**: Custom datasets used for training the NER model (details within the repository). 
--   **Source Code**: [View on GitHub](https://github.com/hanif-dev/medical_chatbot).
+-   **Source Code**: [View on GitHub](https://github.com/hanif-dev/ds-ml-projects/tree/main/medical_chatbot)
