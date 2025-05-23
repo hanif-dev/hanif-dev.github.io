@@ -18,7 +18,7 @@ Welcome to the **Natural Language Processing** page! Here, you'll find details a
 
 **Tools:** Python, Pandas, NumPy, NLTK, Sastrawi, Hugging Face Transformers (IndoBERT), Streamlit.
 
-**Project Link:** [View Details](https://github.com/hanif-dev.github.io/projects/nlp/medical_chatbot)
+**Project Link:** [View Details](https://github.com/hanif-dev.github.io/projects/nlp/medical-chatbot)
 
 ## 🛠 **Tools Used**
 
