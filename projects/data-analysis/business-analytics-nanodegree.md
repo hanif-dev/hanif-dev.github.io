@@ -23,4 +23,4 @@ layout: default
 ## **Data Visualization in Tableau** - Project 4: US Census Demographic Data
 >In this project, you’ll build interactive dashboards with Tableau and use them to discover and communicate insights from data. You’ll use a dataset of flight delays in the US to visualize the quality of airlines and airports, find the best times to fly, and more.
 
- [Link to project](https://github.com/hanif-dev/business-analytics))
+ [Link to project](https://github.com/hanif-dev/business-analytics)
