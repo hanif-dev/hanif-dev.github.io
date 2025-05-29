@@ -12,35 +12,42 @@ Welcome to the **Data Analysis** page! Here, you will find various data analysis
 
 ## 🚀 **Project List**
 
-### 1. **Retail Sales Analysis & Power BI Dashboard**
+### 1. **Udacity Business Analytics Nanodegree**
+   - **Description**: **Completed the Udacity Business Analytics Nanodegree** by building four distinct **data analysis projects** using Excel, SQL, and Tableau. These included **interpreting insights** from interactive dashboards, conducting **statistical analysis** on **NYSE data** in Excel, **querying** a **music store database** using SQL to understand customer behavior, and creating **Tableau dashboards** to visualize **US flight delays** and **demographic trends**.
+   - **Tools**: Excel, SQL (SQLite), Tableau.
+   - **Project Link**: [View Details](./business-analytics-nanodegree.md)
+
+---
+
+### 2. **Retail Sales Analysis & Power BI Dashboard**
    - **Description**: Orchestrated an **end-to-end retail sales analysis** for diverse product categories like **bikes, components, clothing, and accessories**. This involved **ETL** (Extract, Transform, Load) processes into a MySQL database, **in-depth descriptive analysis** using Python, and culminating in an **interactive Power BI dashboard** for visualizing key sales and performance metrics.
    - **Tools**: Python (Pandas, NumPy, Matplotlib, Seaborn, Plotly, SQLAlchemy), SQL (MySQL), Power BI.
    - **Project Link**: [View Details](./retail-analysis-dashboard.md)
 
 ---
 
-### 2. **Retail Sales Analytics: Comprehensive Data Analysis**
+### 3. **Retail Sales Analytics: Comprehensive Data Analysis**
    - **Description:** This project involves **10 in-depth analyses** of retail sales data, covering **customer churn prediction**, **demand forecasting**, **customer segmentation**, **price elasticity**, and detailed **sales performance tracking** across various dimensions like time, demographics, and product distribution.
    - **Tools**: Python (Pandas, NumPy, Matplotlib, Seaborn, Plotly, Scikit-learn), Regression Analysis, Time Series Analysis (ARIMA).
    - **Project Link:** [View Details](./retail-sales-analytics.md)
 
 ---
 
-### 3. **Human Resources Analysis Dashboard**
+### 4. **Human Resources Analysis Dashboard**
    - **Description**: Analyzing employee retention behavior trends from historical HR data to improve collaboration across departments and maintain balance using Data Analytics and Visualizations.
    - **Tools**: Excel.
    - **Project Link**: [View Details](./hr-analytics-dashboard.md)
 
 ---
 
-### 4. **Coffee Sales Dashboard**
+### 5. **Coffee Sales Dashboard**
    - **Description**: Interactive dashboard showcasing coffee sales trends, customer behavior, and market insights to drive strategic decision-making.
    - **Tools**: Excel.
    - **Project Link**: [View Details](./coffee_sales_dashboard.md)
 
 ---
 
-### 5. **Food and Beverage Sales Analysis Dashboard**
+### 6. **Food and Beverage Sales Analysis Dashboard**
    - **Description**: Visualizing sales distribution for a food and beverage retail store.
    - **Tools**: Power BI.
    - **Project Link**: [View Details](./f&b_analysis_dashboard.md)
