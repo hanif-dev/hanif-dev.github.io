@@ -12,7 +12,7 @@ Welcome to the **Web Development** page!
 
 ## 🚀 **Project List**
 
-### 1. **Business consulting web development**
+### 1. **Business Consulting Web Development**
    - **Description**: Monthly sales analysis to identify sales patterns by product category and location.
    - **Tools**: Wordpress, Laragon, cPanel, Elementor, Yoast SEO, Custom CSS & JavaScript
    - **Project Link**: [View Details](https://github.com/hanif-dev/web-development/blob/main/Wordpress%20Portfolio.png)
