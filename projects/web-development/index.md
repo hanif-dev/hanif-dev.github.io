@@ -4,7 +4,7 @@ description: "List of web development projects"
 layout: default
 ---
 
-# 📊 Web Development projects
+# 📊 Web Development Projects
 
 Welcome to the **Web Development** page!
 
