@@ -15,7 +15,7 @@ Welcome to the **Web Development** page!
 ### 1. **Hotel Incognito – WordPress Static Website**
    - **Description**: A corporate hotel website built with WordPress and exported as a static site using a static site generator plugin, then deployed to GitHub Pages for fast and secure delivery.
    - **Tools**: WordPress, Elementor, Custom CSS & JavaScript, Simply Static (or alternative), GitHub Pages
-   - **Project Link**: [View Details](https://github.com/hanif-dev/hanif-dev.github.io/blob/main/hotel-incognito/index.html)
+   - **Project Link**: [View Details](https://github.com/hanif-dev/hanif-dev.github.io/hotel-incognito/)
 
 ### 1. **Business Consulting Web Development**
    - **Description**: Monthly sales analysis to identify sales patterns by product category and location.
