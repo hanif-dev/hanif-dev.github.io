@@ -15,7 +15,7 @@ Welcome to the **Web Development** page!
 ### 1. **NexStay – Hotel Reservation Platform**
 - **Description**: A full-stack hotel reservation platform built with Next.js 16 and Django 5, featuring multi-property management, dynamic pricing, OTA channel integration (Booking.com, Agoda, Traveloka), loyalty points system, and JWT authentication with role-based access control.
 - **Tools**: Next.js 16, Django 5, PostgreSQL, JWT Auth, Tailwind CSS, GitHub Actions, GitHub Pages
-- **Project Link**: [View Details](https://hanif-dev.github.io/nexstay/)
+- **Project Link**: [View Details](https://github.com/hanif-dev/nexstay/)
 
 ### 2. **Hotel Incognito – WordPress Static Website**
 - **Description**: A corporate hotel website built with WordPress and exported as a static site using a static site generator plugin, then deployed to GitHub Pages for fast and secure delivery.
@@ -46,4 +46,5 @@ Welcome to the **Web Development** page!
 Click on **View Details** for each project to see the full explanation, code, and analysis results.
 
 🔗 Return to [Home Page](../index.html)
+
 
