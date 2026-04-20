@@ -7,11 +7,11 @@ title: Projects
 
 Explore my professional projects in the following categories:
 
-- [Security & Full-Stack Projects](#)
-- [Data Engineering Projects](#)
-- [Data Analysis Projects](#)
-- [Natural Language Processing Projects](#)
-- [Machine Learning Projects](#)
-- [Web Development Projects](#)
+- [Security](#)
+- [Web Development Projects](https://github.com/hanif-dev/hanif-dev.github.io/blob/main/projects/web-development)
+- [Data Analysis Projects](https://github.com/hanif-dev/hanif-dev.github.io/blob/main/projects/data-analysis)
+- [Natural Language Processing Projects](https://github.com/hanif-dev/hanif-dev.github.io/blob/main/projects/nlp)
+- [Machine Learning Projects](https://github.com/hanif-dev/hanif-dev.github.io/blob/main/projects/machine-learning)
+
 
 
