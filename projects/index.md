@@ -1,16 +1,17 @@
 ---
 layout: default
-title: "Welcome to My Projects"
+title: Projects
 ---
-# Welcome to My Portfolio
+
+# Selected Works
 
 Explore my professional projects in the following categories:
 
-- [Data Engineering Projects](/projects/data-engineering/)
-- [Data Analysis Projects](/projects/data-analysis/)
-- [Natural Language Processing Projects](/projects/nlp/)
-- [Machine Learning Projects](/projects/machine-learning/)
-- [DevOps Projects](/projects/devops/)
-- [Web Development Projects](/projects/web-development/)
+- [Security & Full-Stack Projects](#)
+- [Data Engineering Projects](#)
+- [Data Analysis Projects](#)
+- [Natural Language Processing Projects](#)
+- [Machine Learning Projects](#)
+- [Web Development Projects](#)
 
 
