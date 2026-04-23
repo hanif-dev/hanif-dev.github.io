@@ -24,6 +24,7 @@ body{background:var(--bg);color:var(--text);font-family:var(--mono);overflow-x:h
 body::before{content:'';position:fixed;inset:0;z-index:998;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,.05) 2px,rgba(0,0,0,.05) 4px);pointer-events:none}
 #mx{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;opacity:.035;pointer-events:none}
 
+/* nav */
 nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:.9rem 3rem;background:rgba(5,10,16,.9);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);transition:border-color .3s}
 .nav-logo{font-family:var(--mono);font-size:.82rem;color:var(--cyan);letter-spacing:.1em;text-decoration:none}
 .nav-logo span{color:var(--green)}
@@ -35,6 +36,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:cen
 .badge-dot{width:6px;height:6px;background:var(--green);border-radius:50%;animation:blink 1.8s infinite}
 @keyframes blink{0%,100%{opacity:1}50%{opacity:.15}}
 
+/* hero */
 .hero{position:relative;z-index:1;min-height:100vh;display:flex;align-items:center;padding:0 3rem;overflow:hidden}
 .hero-hex{position:absolute;inset:0;z-index:0;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='70' viewBox='0 0 60 70'%3E%3Cg fill='none' stroke='rgba(0%2C229%2C255%2C0.035)' stroke-width='1'%3E%3Cpath d='M0 35L15 10l15 25L15 60z'/%3E%3Cpath d='M30 35L45 10l15 25L45 60z'/%3E%3C/g%3E%3C/svg%3E");opacity:.7;pointer-events:none}
 .hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;max-width:1200px;margin:0 auto;width:100%}
@@ -50,6 +52,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:cen
 .cert-badge{display:inline-flex;align-items:center;gap:.35rem;padding:.26rem .68rem;border:1px solid rgba(0,229,255,.18);font-size:.62rem;color:var(--cyan);letter-spacing:.08em;background:rgba(0,229,255,.04)}
 .cert-badge.g{border-color:rgba(0,255,136,.2);color:var(--green);background:rgba(0,255,136,.04)}
 .cert-badge.a{border-color:rgba(255,184,0,.2);color:var(--amber);background:rgba(255,184,0,.04)}
+.cert-badge.p{border-color:rgba(179,136,255,.2);color:var(--purple);background:rgba(179,136,255,.04)}
 .cert-badge svg{width:10px;height:10px;flex-shrink:0}
 .hero-cta{display:flex;gap:1rem;flex-wrap:wrap}
 .btn-p{padding:.65rem 1.7rem;background:transparent;border:1px solid var(--cyan);color:var(--cyan);font-family:var(--mono);font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;cursor:none;position:relative;overflow:hidden;transition:color .3s}
@@ -58,6 +61,8 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:cen
 .btn-p span{position:relative;z-index:1}
 .btn-g{padding:.65rem 1.7rem;background:transparent;border:1px solid var(--border);color:var(--text-dim);font-family:var(--mono);font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;cursor:none;transition:color .3s,border-color .3s}
 .btn-g:hover{color:var(--text);border-color:rgba(0,229,255,.35)}
+
+/* terminal */
 .hero-right{display:flex;align-items:center;padding-top:2rem}
 .term{width:100%;background:rgba(8,15,26,.92);border:1px solid var(--border);border-radius:6px;overflow:hidden;box-shadow:0 0 60px rgba(0,229,255,.06),inset 0 0 40px rgba(0,0,0,.4)}
 .term-bar{display:flex;align-items:center;gap:.45rem;padding:.7rem 1rem;background:rgba(11,21,36,.95);border-bottom:1px solid var(--border)}
@@ -70,6 +75,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:cen
 .tout.dim{color:var(--text-dim)}.tout.g{color:var(--green)}.tout.a{color:var(--amber)}.tout.p{color:var(--purple)}.tout.r{color:var(--red)}
 .cblink{display:inline-block;width:7px;height:13px;background:var(--cyan);animation:blink .8s infinite;vertical-align:middle}
 
+/* sections */
 section{position:relative;z-index:1;padding:5.5rem 3rem}
 .container{max-width:1200px;margin:0 auto}
 .sec-hd{margin-bottom:3rem}
@@ -78,10 +84,17 @@ section{position:relative;z-index:1;padding:5.5rem 3rem}
 .sec-title{font-family:var(--sans);font-size:clamp(1.7rem,2.8vw,2.6rem);font-weight:800;color:#fff;line-height:1.1}
 .sec-title .dim{color:var(--text-dim)}
 
+/* about */
 #about{background:var(--bg2)}
 .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start}
 .about-text p{font-size:.84rem;color:var(--text-dim);line-height:1.9;margin-bottom:.85rem}
 .about-text p strong{color:var(--cyan);font-weight:500}
+.focus-block{margin-top:1.3rem;background:rgba(0,229,255,.03);border:1px solid var(--border);padding:1rem 1.15rem}
+.focus-block .fb-label{font-size:.65rem;color:var(--cyan);letter-spacing:.15em;text-transform:uppercase;margin-bottom:.6rem}
+.focus-item{display:flex;align-items:flex-start;gap:.6rem;font-size:.76rem;color:var(--text-dim);padding:.22rem 0;line-height:1.6}
+.focus-item::before{content:'├──';color:var(--cyan);opacity:.5;flex-shrink:0;font-size:.7rem}
+.focus-item:last-child::before{content:'└──'}
+.focus-item strong{color:var(--text);font-weight:500}
 .sk-grid{display:grid;grid-template-columns:1fr 1fr;gap:.65rem}
 .sk{background:rgba(11,21,36,.65);border:1px solid var(--border);padding:.9rem 1.1rem;position:relative;overflow:hidden;transition:border-color .3s,transform .3s}
 .sk:hover{border-color:rgba(0,229,255,.35);transform:translateY(-2px)}
@@ -90,6 +103,7 @@ section{position:relative;z-index:1;padding:5.5rem 3rem}
 .sk-name{font-size:.76rem;color:var(--text);margin-bottom:.2rem}
 .sk-tags{font-size:.65rem;color:var(--text-dim);line-height:1.5}
 
+/* timeline */
 #experience{background:var(--bg3)}
 .tline{position:relative;padding-left:1.8rem}
 .tline::before{content:'';position:absolute;left:0;top:0;bottom:0;width:1px;background:linear-gradient(to bottom,var(--cyan),transparent)}
@@ -102,6 +116,7 @@ section{position:relative;z-index:1;padding:5.5rem 3rem}
 .tl-list li{font-size:.79rem;color:var(--text-dim);padding:.2rem 0 .2rem 1.1rem;position:relative;line-height:1.7}
 .tl-list li::before{content:'▹';position:absolute;left:0;color:var(--cyan)}
 
+/* expertise */
 #expertise{background:var(--bg2)}
 .exp-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(255px,1fr));gap:1.1rem}
 .exp-card{background:rgba(11,21,36,.55);border:1px solid var(--border);padding:1.6rem;position:relative;overflow:hidden;transition:border-color .3s}
@@ -115,6 +130,7 @@ section{position:relative;z-index:1;padding:5.5rem 3rem}
 .exp-list li{font-size:.74rem;color:var(--text-dim);padding:.17rem 0 .17rem .9rem;position:relative;line-height:1.6}
 .exp-list li::before{content:'→';position:absolute;left:0;color:var(--cyan);opacity:.5}
 
+/* projects */
 #projects{background:var(--bg3)}
 .proj-stats{display:flex;gap:2.5rem;margin-bottom:2.2rem;flex-wrap:wrap}
 .pstat-num{font-family:var(--sans);font-size:2rem;font-weight:800;color:var(--cyan);line-height:1}
@@ -130,11 +146,15 @@ section{position:relative;z-index:1;padding:5.5rem 3rem}
 .pcard:hover::after{width:110px;height:110px}
 .pcard.sec{border-color:rgba(255,45,85,.1)}
 .pcard.sec::after{background:radial-gradient(circle at top right,rgba(255,45,85,.07),transparent 70%)}
-.pcard.sec:hover{border-color:rgba(255,45,85,.3)}
-.pcard.feat{box-shadow:0 0 30px rgba(0,229,255,.05)}
+.pcard.sec:hover{border-color:rgba(255,45,85,.28)}
+.pcard.priv{border-color:rgba(179,136,255,.12)}
+.pcard.priv::after{background:radial-gradient(circle at top right,rgba(179,136,255,.07),transparent 70%)}
+.pcard.priv:hover{border-color:rgba(179,136,255,.28)}
 .feat-label{position:absolute;top:0;right:0;background:var(--green);color:#050a10;font-size:.58rem;padding:.22rem .58rem;letter-spacing:.12em;font-weight:700;text-transform:uppercase}
-.p-num{font-size:.61rem;color:var(--cyan);letter-spacing:.2em;margin-bottom:.85rem;opacity:.6}
+.priv-label{position:absolute;top:0;right:0;background:rgba(179,136,255,.15);border-left:1px solid rgba(179,136,255,.3);border-bottom:1px solid rgba(179,136,255,.3);color:var(--purple);font-size:.58rem;padding:.22rem .58rem;letter-spacing:.12em;text-transform:uppercase}
+.p-num{font-size:.61rem;letter-spacing:.2em;margin-bottom:.85rem;opacity:.6;color:var(--cyan)}
 .pcard.sec .p-num{color:var(--red)}
+.pcard.priv .p-num{color:var(--purple)}
 .p-title{font-family:var(--sans);font-size:1.02rem;font-weight:700;color:#fff;margin-bottom:.4rem}
 .p-desc{font-size:.78rem;color:var(--text-dim);line-height:1.72;margin-bottom:1.1rem;flex:1}
 .p-tags{display:flex;flex-wrap:wrap;gap:.33rem}
@@ -153,14 +173,21 @@ section{position:relative;z-index:1;padding:5.5rem 3rem}
 .cs-dot{width:5px;height:5px;background:var(--purple);border-radius:50%;animation:blink 1.5s infinite}
 .ip-badge{display:inline-flex;align-items:center;gap:.35rem;padding:.2rem .58rem;background:rgba(255,184,0,.08);border:1px solid rgba(255,184,0,.22);font-size:.6rem;color:var(--amber);letter-spacing:.1em;text-transform:uppercase}
 .ip-dot{width:5px;height:5px;background:var(--amber);border-radius:50%;animation:blink 1.2s infinite}
+.priv-badge{display:inline-flex;align-items:center;gap:.35rem;padding:.2rem .58rem;background:rgba(179,136,255,.08);border:1px solid rgba(179,136,255,.22);font-size:.6rem;color:var(--purple);letter-spacing:.1em;text-transform:uppercase}
 
+/* research note */
+.research-note{margin-top:.85rem;padding:.65rem .85rem;background:rgba(179,136,255,.04);border-left:2px solid rgba(179,136,255,.3);font-size:.72rem;color:var(--text-dim);line-height:1.7}
+.research-note strong{color:var(--purple);font-weight:500}
+
+/* contact */
 #contact{background:var(--bg);border-top:1px solid var(--border);padding:5rem 3rem;text-align:center}
-.contact-note{font-size:.83rem;color:var(--text-dim);max-width:460px;margin:1.2rem auto 2rem;line-height:1.8}
+.contact-note{font-size:.83rem;color:var(--text-dim);max-width:480px;margin:1.2rem auto 2rem;line-height:1.8}
 .avail-badge{display:inline-flex;align-items:center;gap:.5rem;padding:.35rem 1rem;border:1px solid rgba(0,255,136,.2);color:var(--green);font-size:.72rem;letter-spacing:.1em;margin-bottom:1.5rem}
 .avail-dot{width:6px;height:6px;background:var(--green);border-radius:50%;animation:blink 1.8s infinite}
 .contact-cta{display:flex;justify-content:center;gap:1rem;flex-wrap:wrap;margin-top:2rem}
 .foot-bot{margin-top:3.5rem;padding-top:1.5rem;border-top:1px solid var(--border);font-size:.67rem;color:var(--text-dim);display:flex;align-items:center;justify-content:space-between}
 
+/* glitch */
 @keyframes glitch{
   0%{clip-path:inset(20% 0 60% 0);transform:translate(-3px,0)}
   20%{clip-path:inset(80% 0 5% 0);transform:translate(3px,0)}
@@ -207,19 +234,18 @@ section{position:relative;z-index:1;padding:5.5rem 3rem}
   <div class="hero-hex"></div>
   <div class="hero-grid">
     <div class="hero-left reveal">
-      <div class="hero-tag">Full-Stack Engineer &amp; Security Practitioner</div>
+      <div class="hero-tag">Full-Stack Engineer · Cybersecurity · CTI Analyst</div>
       <h1 class="hero-name glitch" data-text="Hanif K">Hanif<span class="ac"> K</span></h1>
-      <div class="hero-role"><span class="pr">~/$ </span>whoami &amp;&amp; cat stack.log</div>
+      <div class="hero-role"><span class="pr">~/$ </span>cat identity.log</div>
       <p class="hero-desc">
-        Cybersecurity practitioner and Full-Stack Engineer focused at the intersection of
-        <strong style="color:var(--cyan)">civic technology</strong>
-        and <strong style="color:var(--red)">digital defense</strong> —
-         with a growing interest in
-        <strong style="color:var(--amber)">national security</strong>
-         and <strong style="color:var(--red)">counter-terrorism intelligence</strong>.
-         I approach security not just as a technical discipline — but as a civic one.
+        Full-Stack Software Engineer and Cyber Threat Intelligence Analyst.
+        I build secure, scalable systems — and tools that defend communities:
+        from anti-scam platforms and compliance-grade healthcare portals
+        to <strong style="color:var(--purple)">counter-extremism research assistants</strong>
+        and network security tooling. Technology as a force for
+        <strong style="color:var(--cyan)">peace</strong>, justice, and strong institutions.
       </p>
-       <div class="cert-row">
+      <div class="cert-row">
         <span class="cert-badge">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
           IBM Cybersecurity Certified
@@ -231,6 +257,10 @@ section{position:relative;z-index:1;padding:5.5rem 3rem}
         <span class="cert-badge a">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
           Positive Change Ambassador
+        </span>
+        <span class="cert-badge p">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          CTI · PVE Research
         </span>
       </div>
       <div class="hero-cta">
@@ -256,22 +286,33 @@ section{position:relative;z-index:1;padding:5.5rem 3rem}
     </div>
     <div class="about-grid">
       <div class="about-text reveal">
-        <p>I'm a <strong>Full-Stack Software Engineer</strong> and <strong>CTI Analyst</strong> building end-to-end platforms with a security-first mindset. My work spans React/Next.js frontends, Java Spring Boot and Laravel backends, cloud infrastructure, and compliance-grade system design.</p>
-        <p>I've shipped production systems across multiple domains — from hotel reservation platforms and business consulting sites to <strong>GDPR-compliant healthcare portals</strong> and <strong>real-time anti-scam detection platforms</strong>. Previously contributed at URSA, Heptaco, and Solusi247.</p>
-        <p>As an <strong>IBM Cybersecurity Certified</strong> practitioner and <strong>YSEALI Alumni</strong>, I bring technical depth and a civic perspective to security tooling — particularly for digital safety, data protection, and community resilience.</p>
+        <p>I'm a <strong>Full-Stack Software Engineer</strong> and <strong>Cyber Threat Intelligence (CTI) Analyst</strong> building systems that are technically rigorous and socially meaningful. My engineering work spans React/Next.js frontends, Java Spring Boot and Laravel backends, cloud deployments on AWS and GCP, and compliance-grade system design.</p>
+
+        <p>Beyond production web engineering, I actively research and build tooling in the intersection of <strong>digital security and civic safety</strong> — including a RAG-based counter-extremism assistant, an anti-scam resilience platform, and a GDPR-compliant healthcare security portal. I approach security not just as a technical discipline, but as a <strong>civic one</strong>.</p>
+
+        <p>Previously contributed at <strong>URSA</strong> (web infrastructure, server hardening), <strong>Heptaco</strong> (data analytics), and <strong>Solusi247</strong> (NLP engineering). Certified by <strong>IBM in Cybersecurity</strong> and a proud <strong>YSEALI alumni</strong> — a US State Department leadership program for Southeast Asian changemakers.</p>
+
+        <div class="focus-block">
+          <div class="fb-label">current_focus.json</div>
+          <div class="focus-item"><strong>Full-stack engineering</strong> → React · Next.js · Java Spring Boot · Laravel</div>
+          <div class="focus-item"><strong>Cybersecurity</strong> → Anti-scam platforms · GDPR/BSI compliance · OSINT</div>
+          <div class="focus-item"><strong>Applied security AI</strong> → RAG-based PVE &amp; counter-extremism research</div>
+          <div class="focus-item"><strong>Open to work</strong> → Fullstack · Security · Civic Tech roles</div>
+        </div>
+
         <p style="margin-top:1.2rem;font-size:.76rem;color:var(--text-dim);border:1px solid var(--border);padding:.75rem;line-height:1.8">
           <span style="color:var(--amber)">// privacy note</span><br>
           Contact details omitted from this public page.<br>
-          Reach out through professional channels to connect.
+          Reach out via LinkedIn or professional channels to connect.
         </p>
       </div>
       <div class="sk-grid reveal" style="transition-delay:.15s">
         <div class="sk"><div class="sk-name">Frontend</div><div class="sk-tags">React 18 · Next.js 16 · TypeScript · Tailwind</div></div>
         <div class="sk g"><div class="sk-name">Backend</div><div class="sk-tags">Java Spring Boot · Laravel 10 · Django · Flask</div></div>
         <div class="sk a"><div class="sk-name">Databases</div><div class="sk-tags">PostgreSQL · MySQL · SQLite · Spring JPA</div></div>
-        <div class="sk r"><div class="sk-name">Cybersecurity</div><div class="sk-tags">OSINT · GDPR/DSGVO · BSI · Anti-Scam</div></div>
-        <div class="sk p"><div class="sk-name">DevOps &amp; Cloud</div><div class="sk-tags">Docker · GitHub Actions · AWS · EC2 · Amplify</div></div>
-        <div class="sk"><div class="sk-name">CMS &amp; Infra</div><div class="sk-tags">WordPress · Elementor · cPanel · Laragon</div></div>
+        <div class="sk r"><div class="sk-name">Cybersecurity</div><div class="sk-tags">OSINT · GDPR/DSGVO · Anti-Scam · CTI</div></div>
+        <div class="sk p"><div class="sk-name">Security AI / RAG</div><div class="sk-tags">LLM · Vector DB · PVE Research · NLP</div></div>
+        <div class="sk"><div class="sk-name">DevOps &amp; Cloud</div><div class="sk-tags">Docker · GitHub Actions · AWS · EC2 · Amplify</div></div>
       </div>
     </div>
   </div>
@@ -290,10 +331,10 @@ section{position:relative;z-index:1;padding:5.5rem 3rem}
         <div class="tl-role">WordPress Developer &amp; IT Administrator</div>
         <div class="tl-co">URSA · Indonesia</div>
         <ul class="tl-list">
-          <li>Architected full digital infrastructure — phpMyAdmin, Laragon, cPanel — for production environments</li>
-          <li>Led web content strategy and technical roadmap planning for organizational growth</li>
+          <li>Architected and maintained full digital infrastructure — phpMyAdmin, Laragon, cPanel</li>
+          <li>Led web content strategy and technical roadmap for organizational growth</li>
           <li>Hardened web server configurations and enforced database access control policies</li>
-          <li>Managed deployment workflows and server performance optimization</li>
+          <li>Managed CI/CD-equivalent workflows and production server optimization</li>
         </ul>
       </div>
       <div class="tl-item">
@@ -301,9 +342,9 @@ section{position:relative;z-index:1;padding:5.5rem 3rem}
         <div class="tl-role">Data Analyst Intern</div>
         <div class="tl-co">Heptaco · Indonesia</div>
         <ul class="tl-list">
-          <li>Engineered data cleaning and transformation pipelines for business analytics</li>
-          <li>Built dashboards tracking KPIs for customer service and loyalty programs</li>
-          <li>Delivered RFM segmentation models to inform retention strategies</li>
+          <li>Engineered data pipelines and transformation workflows for business analytics</li>
+          <li>Built executive dashboards tracking customer service and loyalty KPIs</li>
+          <li>Delivered RFM segmentation models to support retention strategy decisions</li>
         </ul>
       </div>
       <div class="tl-item">
@@ -311,7 +352,7 @@ section{position:relative;z-index:1;padding:5.5rem 3rem}
         <div class="tl-role">Data Scientist Intern</div>
         <div class="tl-co">Solusi247 · Jakarta</div>
         <ul class="tl-list">
-          <li>Built NLP pipelines for social media text classification and topic modeling</li>
+          <li>Built NLP pipelines (LDA, NMF, Word2Vec) for social media text classification</li>
           <li>Developed RESTful Flask APIs for real-time NLP inference endpoints</li>
           <li>Implemented Named Entity Recognition for Indonesian-language corpora</li>
         </ul>
@@ -328,53 +369,58 @@ section{position:relative;z-index:1;padding:5.5rem 3rem}
       <h2 class="sec-title">Technical <span class="dim">Domains</span></h2>
     </div>
     <div class="exp-grid">
-
       <div class="exp-card reveal">
         <svg class="exp-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
         <div class="exp-title">Full-Stack Web Dev</div>
         <ul class="exp-list">
           <li>Next.js 16 + Django / Laravel APIs</li>
           <li>Java Spring Boot 3 + React 18</li>
-          <li>JWT Auth · RBAC · REST APIs</li>
+          <li>JWT Auth · RBAC · REST/OpenAPI</li>
           <li>PostgreSQL · MySQL schema design</li>
         </ul>
       </div>
-
       <div class="exp-card reveal" style="transition-delay:.08s">
         <svg class="exp-ic r" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
         <div class="exp-title">Cybersecurity</div>
         <ul class="exp-list">
-          <li>Anti-scam detection systems</li>
-          <li>GDPR / DSGVO / BSI compliance</li>
-          <li>Security audit logging</li>
+          <li>Anti-scam detection &amp; scoring</li>
+          <li>GDPR / DSGVO / BSI IT-Grundschutz</li>
           <li>OSINT &amp; threat intelligence</li>
+          <li>Immutable audit log architecture</li>
         </ul>
       </div>
-
       <div class="exp-card reveal" style="transition-delay:.16s">
+        <svg class="exp-ic p" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4m0 4h.01"/><path d="M9 3.5A9 9 0 0 1 21 12"/></svg>
+        <div class="exp-title">Security AI &amp; RAG</div>
+        <ul class="exp-list">
+          <li>RAG-based research assistants</li>
+          <li>Counter-extremism &amp; PVE tooling</li>
+          <li>Disinformation analysis pipelines</li>
+          <li>LLM + Vector DB integration</li>
+        </ul>
+      </div>
+      <div class="exp-card reveal" style="transition-delay:.24s">
         <svg class="exp-ic g" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
         <div class="exp-title">DevOps &amp; Cloud</div>
         <ul class="exp-list">
           <li>AWS Amplify · EC2 · S3</li>
-          <li>GitHub Actions CI/CD pipelines</li>
+          <li>GitHub Actions CI/CD</li>
           <li>Docker containerization</li>
           <li>Render.com · Netlify · GitHub Pages</li>
         </ul>
       </div>
-
-      <div class="exp-card reveal" style="transition-delay:.24s">
+      <div class="exp-card reveal" style="transition-delay:.08s">
         <svg class="exp-ic a" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
         <div class="exp-title">CMS &amp; Web Infra</div>
         <ul class="exp-list">
-          <li>WordPress + Elementor builds</li>
+          <li>WordPress + Elementor production builds</li>
           <li>SEO optimization (Yoast)</li>
           <li>cPanel · Laragon deployment</li>
           <li>Static site generation &amp; CDN</li>
         </ul>
       </div>
-
-      <div class="exp-card reveal" style="transition-delay:.08s">
-        <svg class="exp-ic p" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+      <div class="exp-card reveal" style="transition-delay:.16s">
+        <svg class="exp-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
         <div class="exp-title">Code &amp; Tooling</div>
         <ul class="exp-list">
           <li>Java · PHP · TypeScript · Python</li>
@@ -383,18 +429,6 @@ section{position:relative;z-index:1;padding:5.5rem 3rem}
           <li>Postman · Git · VS Code</li>
         </ul>
       </div>
-
-      <div class="exp-card reveal" style="transition-delay:.16s">
-        <svg class="exp-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-        <div class="exp-title">Compliance &amp; Audit</div>
-        <ul class="exp-list">
-          <li>DSGVO §33 incident tracking</li>
-          <li>BSI IT-Grundschutz alignment</li>
-          <li>Immutable audit log design</li>
-          <li>72h BSI breach notification flow</li>
-        </ul>
-      </div>
-
     </div>
   </div>
 </section>
@@ -408,9 +442,9 @@ section{position:relative;z-index:1;padding:5.5rem 3rem}
     </div>
 
     <div class="proj-stats reveal">
-      <div class="pstat"><div class="pstat-num">9</div><div class="pstat-lbl">Total Projects</div></div>
+      <div class="pstat"><div class="pstat-num">10</div><div class="pstat-lbl">Total Projects</div></div>
       <div class="pstat"><div class="pstat-num" style="color:var(--cyan)">5</div><div class="pstat-lbl">Web / Full-Stack</div></div>
-      <div class="pstat"><div class="pstat-num" style="color:var(--red)">4</div><div class="pstat-lbl">Security Focused</div></div>
+      <div class="pstat"><div class="pstat-num" style="color:var(--red)">5</div><div class="pstat-lbl">Security Focused</div></div>
       <div class="pstat"><div class="pstat-num" style="color:var(--green)">3</div><div class="pstat-lbl">Live / Deployed</div></div>
     </div>
 
@@ -418,16 +452,17 @@ section{position:relative;z-index:1;padding:5.5rem 3rem}
       <button class="ptab active" onclick="filterProj('all',this)">All</button>
       <button class="ptab" onclick="filterProj('web',this)">Web / Full-Stack</button>
       <button class="ptab" onclick="filterProj('sec',this)">Cybersecurity</button>
+      <button class="ptab" onclick="filterProj('priv',this)">Research</button>
     </div>
 
     <div class="proj-grid">
 
-      <!-- SEC PROJECTS -->
+      <!-- SEC_001 SafePulse -->
       <div class="pcard sec feat reveal" data-cat="sec">
         <span class="feat-label">LIVE</span>
         <div class="p-num">SEC_001</div>
         <div class="p-title">SafePulse — Anti-Scam &amp; Digital Resilience Platform</div>
-        <p class="p-desc">Production-ready full-stack platform for real-time fraud detection and digital resilience. Analyses messages, URLs, phone numbers, and bank accounts for scam indicators with a scored risk report. Features anonymous incident reporting, multilingual support (EN/ID), WCAG-AA accessibility (TTS, font-size controls), and a seeded article knowledge base — deployed to AWS Amplify.</p>
+        <p class="p-desc">Production-ready full-stack platform for real-time fraud detection and digital community resilience. Analyses messages, URLs, phone numbers, and bank accounts for scam indicators with a scored risk report. Features anonymous incident reporting, multilingual support (EN/ID), WCAG-AA accessibility (TTS, font-size controls), Recharts analytics, and a seeded knowledge base — deployed on AWS Amplify + EC2.</p>
         <div class="p-tags">
           <span class="tag r">Anti-Scam</span>
           <span class="tag a">Laravel 10</span>
@@ -435,21 +470,22 @@ section{position:relative;z-index:1;padding:5.5rem 3rem}
           <span class="tag">TypeScript</span>
           <span class="tag g">AWS Amplify + EC2</span>
           <span class="tag">Tailwind CSS</span>
-          <span class="tag r">Recharts</span>
+          <span class="tag r">i18n EN/ID</span>
         </div>
         <div class="p-foot">
           <div class="p-links">
             <a href="https://main.d1f2msb859ksi1.amplifyapp.com/" class="p-link live" target="_blank">Live Demo ↗</a>
-            <a href="https://github.com/hanif-dev/safepulse" class="p-link" target="_blank">GitHub<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+            <a href="https://github.com/hanif-dev/safepulse" class="p-link" target="_blank">GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
           </div>
           <span class="tag r">Full-Stack · Security</span>
         </div>
       </div>
 
+      <!-- SEC_002 MediGuard -->
       <div class="pcard sec reveal" data-cat="sec" style="transition-delay:.08s">
         <div class="p-num">SEC_002</div>
         <div class="p-title">MediGuard Deutschland — GDPR Healthcare Portal</div>
-        <p class="p-desc">Enterprise patient management system built to German healthcare law (§630f BGB, §33 DSGVO, BSI IT-Grundschutz). Features immutable medical records with soft-delete only, RBAC with 4 roles, 72h BSI breach notification tracking, a full audit log, ICD-10 support, and Swagger/OpenAPI documentation. Pending deployment due to HTTPS configuration.</p>
+        <p class="p-desc">Enterprise patient management system for German healthcare law (§630f BGB, §33 DSGVO, BSI IT-Grundschutz). Immutable medical records via soft-delete only, RBAC with 4 roles (Admin/Arzt/Pfleger/Verwaltung), 72h BSI breach notification tracking, full audit log, ICD-10 support, and Swagger/OpenAPI documentation. Awaiting HTTPS configuration for full deployment.</p>
         <div class="p-tags">
           <span class="tag r">DSGVO / GDPR</span>
           <span class="tag a">Java 21 + Spring Boot 3</span>
@@ -460,17 +496,18 @@ section{position:relative;z-index:1;padding:5.5rem 3rem}
         </div>
         <div class="p-foot">
           <div class="p-links">
-            <a href="https://github.com/hanif-dev/mediguard-platform" class="p-link" target="_blank">GitHub<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+            <a href="https://github.com/hanif-dev/mediguard-platform" class="p-link" target="_blank">GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
             <span class="ip-badge"><span class="ip-dot"></span>Deploy Pending</span>
           </div>
           <span class="tag r">Healthcare · Compliance</span>
         </div>
       </div>
 
+      <!-- SEC_003 SafeNet -->
       <div class="pcard sec reveal" data-cat="sec" style="transition-delay:.16s">
         <div class="p-num">SEC_003</div>
         <div class="p-title">SafeNet — Network Security Platform</div>
-        <p class="p-desc">Security platform extending the SafePulse ecosystem toward infrastructure-layer defense — covering network threat monitoring, anomaly detection, and digital safety tooling. Part of a broader vision for community-facing security products. Currently in active development; deployment pending HTTPS configuration.</p>
+        <p class="p-desc">Security platform extending the SafePulse ecosystem toward infrastructure-layer defense — network threat monitoring, anomaly detection, and digital safety tooling for endpoint and network environments. Part of a broader suite of community-facing security products. In active development; deployment pending HTTPS configuration.</p>
         <div class="p-tags">
           <span class="tag r">Network Security</span>
           <span class="tag a">Threat Monitoring</span>
@@ -480,17 +517,43 @@ section{position:relative;z-index:1;padding:5.5rem 3rem}
         </div>
         <div class="p-foot">
           <div class="p-links">
-            <a href="https://github.com/hanif-dev/safenet-platform" class="p-link" target="_blank">GitHub<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+            <a href="https://github.com/hanif-dev/safenet-platform" class="p-link" target="_blank">GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
             <span class="ip-badge"><span class="ip-dot"></span>Deploy Pending</span>
           </div>
           <span class="tag r">Security · Monitoring</span>
         </div>
       </div>
 
-      <div class="pcard sec reveal" data-cat="sec">
+      <!-- SEC_004 Digital Resilience Assistant (PRIVATE) -->
+      <div class="pcard priv reveal" data-cat="sec priv">
+        <span class="priv-label">Research</span>
         <div class="p-num">SEC_004</div>
+        <div class="p-title">Digital Resilience Assistant — RAG Chatbot</div>
+        <p class="p-desc">RAG-based (Retrieval-Augmented Generation) chatbot platform supporting evidence-based research, education, and prevention in: digital resilience &amp; online safety, counter-radicalization and PVE (Prevention of Violent Extremism), disinformation &amp; hate speech analysis, media literacy, ASEAN separatism contexts, and ideology-based terrorism (Ikhwanul Muslimin, ISIS, Al-Qaeda, HTI, JI). Built for researchers and security practitioners.</p>
+        <div class="p-tags">
+          <span class="tag p">RAG · LLM</span>
+          <span class="tag a">Python</span>
+          <span class="tag p">Vector DB</span>
+          <span class="tag r">Counter-Extremism</span>
+          <span class="tag p">PVE Research</span>
+          <span class="tag">Disinformation</span>
+        </div>
+        <div class="research-note">
+          <strong>⚠ Edukatif &amp; Preventif</strong> — Aplikasi ini bersifat riset dan pencegahan.
+          Tidak dirancang untuk memfasilitasi kekerasan, rekrutmen, atau propaganda.
+          Repository bersifat privat karena sensitivitas konten penelitian.
+        </div>
+        <div class="p-foot">
+          <span class="priv-badge">🔒 Private Research Repo</span>
+          <span class="tag p">Security AI · CTI</span>
+        </div>
+      </div>
+
+      <!-- SEC_005 WordPress hardening -->
+      <div class="pcard sec reveal" data-cat="sec">
+        <div class="p-num">SEC_005</div>
         <div class="p-title">WordPress Security Hardening Toolkit</div>
-        <p class="p-desc">Comprehensive security audit and hardening framework for production WordPress deployments. Covers database encryption, access control policy enforcement, intrusion detection, and automated secure backup workflows. Derived from real infrastructure hardening work at URSA.</p>
+        <p class="p-desc">Comprehensive security audit and hardening framework for production WordPress deployments — database encryption, access control enforcement, intrusion detection, and automated secure backup workflows. Derived from real production infrastructure work at URSA.</p>
         <div class="p-tags">
           <span class="tag r">WordPress</span>
           <span class="tag a">PHP</span>
@@ -504,29 +567,30 @@ section{position:relative;z-index:1;padding:5.5rem 3rem}
         </div>
       </div>
 
-      <!-- WEB PROJECTS -->
+      <!-- WEB_001 NexStay -->
       <div class="pcard reveal" data-cat="web">
         <div class="p-num">WEB_001</div>
         <div class="p-title">NexStay — Hotel Reservation Platform</div>
-        <p class="p-desc">Full-stack hotel reservation system with multi-property management, dynamic pricing engine, OTA channel integration (Booking.com, Agoda, Traveloka), loyalty points system, and JWT authentication with role-based access control — deployed via GitHub Actions CI/CD.</p>
+        <p class="p-desc">Full-stack hotel reservation system with multi-property management, dynamic pricing engine, OTA channel integration (Booking.com, Agoda, Traveloka), loyalty points system, and JWT authentication with role-based access control. Deployed via GitHub Actions CI/CD.</p>
         <div class="p-tags">
           <span class="tag">Next.js 16</span>
           <span class="tag g">Django 5</span>
           <span class="tag a">PostgreSQL</span>
           <span class="tag">Tailwind CSS</span>
-          <span class="tag g">JWT Auth</span>
+          <span class="tag g">JWT · RBAC</span>
           <span class="tag">GitHub Actions</span>
         </div>
         <div class="p-foot">
-          <a href="https://github.com/hanif-dev/nexstay/" class="p-link" target="_blank">GitHub<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+          <a href="https://github.com/hanif-dev/nexstay/" class="p-link" target="_blank">GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
           <span class="tag g">Full-Stack</span>
         </div>
       </div>
 
+      <!-- WEB_002 Hotel Incognito -->
       <div class="pcard reveal" data-cat="web" style="transition-delay:.08s">
         <div class="p-num">WEB_002</div>
         <div class="p-title">Hotel Incognito — Static Corporate Website</div>
-        <p class="p-desc">Corporate hotel website built with WordPress + Elementor, exported as a fully static site via Simply Static and deployed to GitHub Pages — delivering fast, secure, maintenance-free hosting with zero server runtime overhead.</p>
+        <p class="p-desc">Corporate hotel website built with WordPress + Elementor, exported as a fully static site via Simply Static, and deployed to GitHub Pages. Fast, secure, zero server runtime overhead.</p>
         <div class="p-tags">
           <span class="tag">WordPress</span>
           <span class="tag g">Elementor</span>
@@ -540,10 +604,11 @@ section{position:relative;z-index:1;padding:5.5rem 3rem}
         </div>
       </div>
 
+      <!-- WEB_003 Business Consulting -->
       <div class="pcard reveal" data-cat="web" style="transition-delay:.16s">
         <div class="p-num">WEB_003</div>
         <div class="p-title">Business Consulting Platform</div>
-        <p class="p-desc">Professional business consulting website built on WordPress + Laragon and deployed via cPanel. SEO-optimized with Yoast, fully responsive, structured for service showcasing and client lead generation — demonstrating real production CMS deployment.</p>
+        <p class="p-desc">Professional business consulting website built on WordPress + Laragon, deployed via cPanel. SEO-optimized with Yoast, fully responsive, structured for service showcasing and lead generation — demonstrating real production CMS deployment and web infrastructure management.</p>
         <div class="p-tags">
           <span class="tag">WordPress</span>
           <span class="tag g">Laragon</span>
@@ -552,15 +617,16 @@ section{position:relative;z-index:1;padding:5.5rem 3rem}
           <span class="tag g">Custom CSS/JS</span>
         </div>
         <div class="p-foot">
-          <a href="https://github.com/hanif-dev/web-development/" class="p-link" target="_blank">GitHub<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+          <a href="https://github.com/hanif-dev/web-development/" class="p-link" target="_blank">GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
           <span class="tag">WordPress · SEO</span>
         </div>
       </div>
 
+      <!-- WEB_004 University Info -->
       <div class="pcard reveal" data-cat="web">
         <div class="p-num">WEB_004</div>
         <div class="p-title">University Info Frontend Site</div>
-        <p class="p-desc">Static website presenting institutional information, campus culture, and balanced public accountability data. Explores how frontend design can organize and display contrasting or sensitive information in a clear, accessible, and structurally honest manner.</p>
+        <p class="p-desc">Static website presenting institutional information, campus culture, and balanced public accountability data. Explores how frontend design can organize and display contrasting or sensitive information in a clear and accessible manner.</p>
         <div class="p-tags">
           <span class="tag">HTML5</span>
           <span class="tag g">CSS3 Grid/Flexbox</span>
@@ -568,11 +634,12 @@ section{position:relative;z-index:1;padding:5.5rem 3rem}
           <span class="tag g">Vanilla Frontend</span>
         </div>
         <div class="p-foot">
-          <a href="https://github.com/hanif-dev/web-development/" class="p-link" target="_blank">GitHub<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+          <a href="https://github.com/hanif-dev/web-development/" class="p-link" target="_blank">GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
           <span class="tag g">Frontend</span>
         </div>
       </div>
 
+      <!-- WEB_005 ETL -->
       <div class="pcard reveal" data-cat="web" style="transition-delay:.08s">
         <div class="p-num">WEB_005</div>
         <div class="p-title">Secure Data ETL Platform</div>
@@ -585,7 +652,7 @@ section{position:relative;z-index:1;padding:5.5rem 3rem}
           <span class="tag r">Audit Logging</span>
         </div>
         <div class="p-foot">
-          <a href="https://github.com/hanif-dev" class="p-link" target="_blank">GitHub<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+          <a href="https://github.com/hanif-dev" class="p-link" target="_blank">GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
           <span class="tag">ETL · Cloud</span>
         </div>
       </div>
@@ -599,9 +666,12 @@ section{position:relative;z-index:1;padding:5.5rem 3rem}
   <div class="container">
     <div class="sec-tag" style="justify-content:center"><span class="num">05</span> / contact</div>
     <h2 class="sec-title" style="text-align:center;margin-top:.5rem;margin-bottom:.75rem">
-      Let's Build Something<br><span class="dim">Secure &amp; Scalable</span>
+      Let's Build Something<br><span class="dim">Secure &amp; Purposeful</span>
     </h2>
-    <p class="contact-note">Open to full-stack engineering roles, cybersecurity positions, and collaborative projects in digital safety, compliance systems, and community resilience.</p>
+    <p class="contact-note">
+      Open to full-stack engineering, cybersecurity, and applied security AI roles.
+      Also available for research collaborations in digital safety, PVE, and civic tech.
+    </p>
     <div style="text-align:center"><div class="avail-badge"><div class="avail-dot"></div>Available for opportunities</div></div>
     <div class="contact-cta">
       <a href="https://main.d1f2msb859ksi1.amplifyapp.com/" class="btn-p" target="_blank"><span>SafePulse Live Demo</span></a>
@@ -609,7 +679,7 @@ section{position:relative;z-index:1;padding:5.5rem 3rem}
     </div>
     <div class="foot-bot">
       <span>© 2026 Hanif K — All rights reserved</span>
-      <span style="color:var(--cyan)">HK://FULLSTACK · SECURITY · COMPLIANCE</span>
+      <span style="color:var(--cyan)">HK://FULLSTACK · SECURITY · CTI · PVE</span>
       <span>Built intentionally. Secured by design.</span>
     </div>
   </div>
@@ -624,27 +694,27 @@ document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;cdot.style.l
 const cvs=document.getElementById('mx'),ctx=cvs.getContext('2d');
 let cols,drops;
 function initMx(){cvs.width=innerWidth;cvs.height=innerHeight;const fs=13;cols=Math.floor(cvs.width/fs);drops=Array(cols).fill(1)}
-function drawMx(){ctx.fillStyle='rgba(5,10,16,.06)';ctx.fillRect(0,0,cvs.width,cvs.height);ctx.fillStyle='#00e5ff';ctx.font='12px JetBrains Mono,monospace';const c='01アイウエカキクセキュリティ[]{}|SECURE<>SAFE';drops.forEach((y,i)=>{ctx.fillText(c[Math.floor(Math.random()*c.length)],i*13,y*13);if(y*13>cvs.height&&Math.random()>.975)drops[i]=0;drops[i]++})}
+function drawMx(){ctx.fillStyle='rgba(5,10,16,.06)';ctx.fillRect(0,0,cvs.width,cvs.height);ctx.fillStyle='#00e5ff';ctx.font='12px JetBrains Mono,monospace';const c='01アイウセキュリティSECURE[]{}|<>SAFE防衛';drops.forEach((y,i)=>{ctx.fillText(c[Math.floor(Math.random()*c.length)],i*13,y*13);if(y*13>cvs.height&&Math.random()>.975)drops[i]=0;drops[i]++})}
 initMx();addEventListener('resize',initMx);setInterval(drawMx,55);
 
 const tOut=document.getElementById('term-out');
 const lines=[
   {t:'cmd',v:'whoami'},
   {t:'out',v:'→ hanif_k :: fullstack_engineer | cti_analyst',c:'g'},
-  {t:'cmd',v:'cat certifications.txt'},
-  {t:'out',v:'✓ IBM Cybersecurity Analyst Professional',c:'a'},
-  {t:'out',v:'✓ Positive Change Ambassador | YSEALI Alumni',c:'a'},
-  {t:'cmd',v:'ls projects/ --security'},
-  {t:'out',v:'safepulse/       [LIVE → AWS Amplify]',c:'r'},
-  {t:'out',v:'mediguard/       [DSGVO §33 + BSI]',c:'r'},
-  {t:'out',v:'safenet/         [in progress]',c:'dim'},
-  {t:'cmd',v:'curl -s safepulse.app/api/check-scam'},
+  {t:'cmd',v:'cat mission.txt'},
+  {t:'out',v:'// technology as force for peace & justice',c:'p'},
+  {t:'cmd',v:'ls projects/ --all'},
+  {t:'out',v:'safepulse/          [LIVE → AWS Amplify]',c:'r'},
+  {t:'out',v:'mediguard/          [DSGVO §33 + BSI]',c:'r'},
+  {t:'out',v:'digital-resilience/ [PVE research · private]',c:'p'},
+  {t:'out',v:'safenet/            [in progress]',c:'dim'},
+  {t:'cmd',v:'curl safepulse.app/api/check-scam -d msg'},
   {t:'out',v:'{ score: 85, level: "High", reasons: [3] }',c:'r'},
   {t:'cmd',v:'./status --open-to-work'},
-  {t:'out',v:'STATUS: seeking fullstack | security role',c:'p'},
+  {t:'out',v:'STATUS: fullstack | security | civic-tech',c:'p'},
 ];
 let li=0,ci=0;
-const DL=520,DC=34;
+const DL=500,DC=33;
 function typeLine(){
   if(li>=lines.length){const last=tOut.lastElementChild;if(last){const bc=document.createElement('span');bc.className='cblink';last.appendChild(bc)}return}
   const ln=lines[li];const row=document.createElement('div');row.className='tl';
@@ -653,10 +723,10 @@ function typeLine(){
     const cmd=document.createElement('span');cmd.className='tcmd';
     row.appendChild(pr);row.appendChild(cmd);tOut.appendChild(row);tOut.scrollTop=tOut.scrollHeight;
     function tc(){if(ci<ln.v.length){cmd.textContent+=ln.v[ci++];tOut.scrollTop=tOut.scrollHeight;setTimeout(tc,DC)}else{ci=0;li++;setTimeout(typeLine,DL)}}
-    setTimeout(tc,160);
+    setTimeout(tc,150);
   }else{
     const o=document.createElement('span');o.className='tout'+(ln.c?' '+ln.c:' dim');o.textContent=ln.v;
-    row.appendChild(o);tOut.appendChild(row);tOut.scrollTop=tOut.scrollHeight;li++;setTimeout(typeLine,DL*.42);
+    row.appendChild(o);tOut.appendChild(row);tOut.scrollTop=tOut.scrollHeight;li++;setTimeout(typeLine,DL*.4);
   }
 }
 setTimeout(typeLine,900);
@@ -672,7 +742,8 @@ function filterProj(cat,btn){
   document.querySelectorAll('.ptab').forEach(b=>b.classList.remove('active'));
   btn.classList.add('active');
   document.querySelectorAll('.pcard').forEach(c=>{
-    c.style.display=(cat==='all'||c.dataset.cat===cat)?'flex':'none';
+    const cats=c.dataset.cat||'';
+    c.style.display=(cat==='all'||cats.includes(cat))?'flex':'none';
   });
 }
 </script>
